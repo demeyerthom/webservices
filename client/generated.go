@@ -18758,7 +18758,7 @@ func NewWebservicesNLPortType(client *soap.Client) WebservicesNLPortType {
 
 func (service *webservicesNLPortType) AccountGetCreationToken(request *AccountGetCreationTokenRequestType) (*AccountGetCreationTokenResponseType, error) {
 	response := new(AccountGetCreationTokenResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/accountGetCreationToken", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/accountGetCreationToken", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18768,7 +18768,7 @@ func (service *webservicesNLPortType) AccountGetCreationToken(request *AccountGe
 
 func (service *webservicesNLPortType) AccountGetCreationStatus(request *AccountGetCreationStatusRequestType) (*AccountGetCreationStatusResponseType, error) {
 	response := new(AccountGetCreationStatusResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/accountGetCreationStatus", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/accountGetCreationStatus", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18778,7 +18778,7 @@ func (service *webservicesNLPortType) AccountGetCreationStatus(request *AccountG
 
 func (service *webservicesNLPortType) AccountGetOrderToken(request *AccountGetOrderTokenRequestType) (*AccountGetOrderTokenResponseType, error) {
 	response := new(AccountGetOrderTokenResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/accountGetOrderToken", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/accountGetOrderToken", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18788,7 +18788,7 @@ func (service *webservicesNLPortType) AccountGetOrderToken(request *AccountGetOr
 
 func (service *webservicesNLPortType) UserSessionRemove(request *UserSessionRemoveRequestType) (*UserSessionRemoveResponseType, error) {
 	response := new(UserSessionRemoveResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userSessionRemove", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userSessionRemove", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18798,7 +18798,7 @@ func (service *webservicesNLPortType) UserSessionRemove(request *UserSessionRemo
 
 func (service *webservicesNLPortType) UserSessionList(request *UserSessionListRequestType) (*UserSessionListResponseType, error) {
 	response := new(UserSessionListResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userSessionList", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userSessionList", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18808,7 +18808,7 @@ func (service *webservicesNLPortType) UserSessionList(request *UserSessionListRe
 
 func (service *webservicesNLPortType) UserViewBalance(request *UserViewBalanceRequestType) (*UserViewBalanceResponseType, error) {
 	response := new(UserViewBalanceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userViewBalance", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userViewBalance", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18818,7 +18818,7 @@ func (service *webservicesNLPortType) UserViewBalance(request *UserViewBalanceRe
 
 func (service *webservicesNLPortType) UserEditBalance(request *UserEditBalanceRequestType) (*UserEditBalanceResponseType, error) {
 	response := new(UserEditBalanceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userEditBalance", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userEditBalance", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18828,7 +18828,7 @@ func (service *webservicesNLPortType) UserEditBalance(request *UserEditBalanceRe
 
 func (service *webservicesNLPortType) AccountViewBalance(request *AccountViewBalanceRequestType) (*AccountViewBalanceResponseType, error) {
 	response := new(AccountViewBalanceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/accountViewBalance", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/accountViewBalance", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18838,7 +18838,7 @@ func (service *webservicesNLPortType) AccountViewBalance(request *AccountViewBal
 
 func (service *webservicesNLPortType) UserViewV2(request *UserViewV2RequestType) (*UserViewV2ResponseType, error) {
 	response := new(UserViewV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userViewV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userViewV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18848,7 +18848,7 @@ func (service *webservicesNLPortType) UserViewV2(request *UserViewV2RequestType)
 
 func (service *webservicesNLPortType) UserEditV2(request *UserEditV2RequestType) (*UserEditV2ResponseType, error) {
 	response := new(UserEditV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userEditV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userEditV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18858,7 +18858,7 @@ func (service *webservicesNLPortType) UserEditV2(request *UserEditV2RequestType)
 
 func (service *webservicesNLPortType) UserEditExtendedV2(request *UserEditExtendedV2RequestType) (*UserEditExtendedV2ResponseType, error) {
 	response := new(UserEditExtendedV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userEditExtendedV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userEditExtendedV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18868,7 +18868,7 @@ func (service *webservicesNLPortType) UserEditExtendedV2(request *UserEditExtend
 
 func (service *webservicesNLPortType) UserCreateV2(request *UserCreateV2RequestType) (*UserCreateV2ResponseType, error) {
 	response := new(UserCreateV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userCreateV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userCreateV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18878,7 +18878,7 @@ func (service *webservicesNLPortType) UserCreateV2(request *UserCreateV2RequestT
 
 func (service *webservicesNLPortType) CreateTestUser(request *CreateTestUserRequestType) (*CreateTestUserResponseType, error) {
 	response := new(CreateTestUserResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/createTestUser", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/createTestUser", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18888,7 +18888,7 @@ func (service *webservicesNLPortType) CreateTestUser(request *CreateTestUserRequ
 
 func (service *webservicesNLPortType) UserChangePassword(request *UserChangePasswordRequestType) (*UserChangePasswordResponseType, error) {
 	response := new(UserChangePasswordResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userChangePassword", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userChangePassword", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18898,7 +18898,7 @@ func (service *webservicesNLPortType) UserChangePassword(request *UserChangePass
 
 func (service *webservicesNLPortType) UserRemove(request *UserRemoveRequestType) (*UserRemoveResponseType, error) {
 	response := new(UserRemoveResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userRemove", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userRemove", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18908,7 +18908,7 @@ func (service *webservicesNLPortType) UserRemove(request *UserRemoveRequestType)
 
 func (service *webservicesNLPortType) UserNotify(request *UserNotifyRequestType) (*UserNotifyResponseType, error) {
 	response := new(UserNotifyResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userNotify", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userNotify", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18918,7 +18918,7 @@ func (service *webservicesNLPortType) UserNotify(request *UserNotifyRequestType)
 
 func (service *webservicesNLPortType) UserListAssignableGroups(request *UserListAssignableGroupsRequestType) (*UserListAssignableGroupsResponseType, error) {
 	response := new(UserListAssignableGroupsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userListAssignableGroups", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userListAssignableGroups", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18928,7 +18928,7 @@ func (service *webservicesNLPortType) UserListAssignableGroups(request *UserList
 
 func (service *webservicesNLPortType) UserAddGroup(request *UserAddGroupRequestType) (*UserAddGroupResponseType, error) {
 	response := new(UserAddGroupResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userAddGroup", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userAddGroup", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18938,7 +18938,7 @@ func (service *webservicesNLPortType) UserAddGroup(request *UserAddGroupRequestT
 
 func (service *webservicesNLPortType) UserRemoveGroup(request *UserRemoveGroupRequestType) (*UserRemoveGroupResponseType, error) {
 	response := new(UserRemoveGroupResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userRemoveGroup", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userRemoveGroup", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18948,7 +18948,7 @@ func (service *webservicesNLPortType) UserRemoveGroup(request *UserRemoveGroupRe
 
 func (service *webservicesNLPortType) AccountViewV2(request *AccountViewV2RequestType) (*AccountViewV2ResponseType, error) {
 	response := new(AccountViewV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/accountViewV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/accountViewV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18958,7 +18958,7 @@ func (service *webservicesNLPortType) AccountViewV2(request *AccountViewV2Reques
 
 func (service *webservicesNLPortType) AccountEditV2(request *AccountEditV2RequestType) (*AccountEditV2ResponseType, error) {
 	response := new(AccountEditV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/accountEditV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/accountEditV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18968,7 +18968,7 @@ func (service *webservicesNLPortType) AccountEditV2(request *AccountEditV2Reques
 
 func (service *webservicesNLPortType) AccountUserListV2(request *AccountUserListV2RequestType) (*AccountUserListV2ResponseType, error) {
 	response := new(AccountUserListV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/accountUserListV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/accountUserListV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18978,7 +18978,7 @@ func (service *webservicesNLPortType) AccountUserListV2(request *AccountUserList
 
 func (service *webservicesNLPortType) AccountUserSearchV2(request *AccountUserSearchV2RequestType) (*AccountUserSearchV2ResponseType, error) {
 	response := new(AccountUserSearchV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/accountUserSearchV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/accountUserSearchV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18988,7 +18988,7 @@ func (service *webservicesNLPortType) AccountUserSearchV2(request *AccountUserSe
 
 func (service *webservicesNLPortType) AccountEditHostRestrictions(request *AccountEditHostRestrictionsRequestType) (*AccountEditHostRestrictionsResponseType, error) {
 	response := new(AccountEditHostRestrictionsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/accountEditHostRestrictions", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/accountEditHostRestrictions", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -18998,7 +18998,7 @@ func (service *webservicesNLPortType) AccountEditHostRestrictions(request *Accou
 
 func (service *webservicesNLPortType) AccountViewHostRestrictions(request *AccountViewHostRestrictionsRequestType) (*AccountViewHostRestrictionsResponseType, error) {
 	response := new(AccountViewHostRestrictionsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/accountViewHostRestrictions", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/accountViewHostRestrictions", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19008,7 +19008,7 @@ func (service *webservicesNLPortType) AccountViewHostRestrictions(request *Accou
 
 func (service *webservicesNLPortType) UserEditHostRestrictions(request *UserEditHostRestrictionsRequestType) (*UserEditHostRestrictionsResponseType, error) {
 	response := new(UserEditHostRestrictionsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userEditHostRestrictions", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userEditHostRestrictions", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19018,7 +19018,7 @@ func (service *webservicesNLPortType) UserEditHostRestrictions(request *UserEdit
 
 func (service *webservicesNLPortType) UserViewHostRestrictions(request *UserViewHostRestrictionsRequestType) (*UserViewHostRestrictionsResponseType, error) {
 	response := new(UserViewHostRestrictionsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/userViewHostRestrictions", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/userViewHostRestrictions", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19028,7 +19028,7 @@ func (service *webservicesNLPortType) UserViewHostRestrictions(request *UserView
 
 func (service *webservicesNLPortType) AddressReeksPostcodeSearch(request *AddressReeksPostcodeSearchRequestType) (*AddressReeksPostcodeSearchResponseType, error) {
 	response := new(AddressReeksPostcodeSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressReeksPostcodeSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressReeksPostcodeSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19038,7 +19038,7 @@ func (service *webservicesNLPortType) AddressReeksPostcodeSearch(request *Addres
 
 func (service *webservicesNLPortType) AddressReeksAddressSearch(request *AddressReeksAddressSearchRequestType) (*AddressReeksAddressSearchResponseType, error) {
 	response := new(AddressReeksAddressSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressReeksAddressSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressReeksAddressSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19048,7 +19048,7 @@ func (service *webservicesNLPortType) AddressReeksAddressSearch(request *Address
 
 func (service *webservicesNLPortType) AddressReeksFullParameterSearch(request *AddressReeksFullParameterSearchRequestType) (*AddressReeksFullParameterSearchResponseType, error) {
 	response := new(AddressReeksFullParameterSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressReeksFullParameterSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressReeksFullParameterSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19058,7 +19058,7 @@ func (service *webservicesNLPortType) AddressReeksFullParameterSearch(request *A
 
 func (service *webservicesNLPortType) AddressReeksParameterSearch(request *AddressReeksParameterSearchRequestType) (*AddressReeksParameterSearchResponseType, error) {
 	response := new(AddressReeksParameterSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressReeksParameterSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressReeksParameterSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19068,7 +19068,7 @@ func (service *webservicesNLPortType) AddressReeksParameterSearch(request *Addre
 
 func (service *webservicesNLPortType) AddressPerceelPhraseSearch(request *AddressPerceelPhraseSearchRequestType) (*AddressPerceelPhraseSearchResponseType, error) {
 	response := new(AddressPerceelPhraseSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressPerceelPhraseSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressPerceelPhraseSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19078,7 +19078,7 @@ func (service *webservicesNLPortType) AddressPerceelPhraseSearch(request *Addres
 
 func (service *webservicesNLPortType) AddressPerceelFullParameterSearchV2(request *AddressPerceelFullParameterSearchV2RequestType) (*AddressPerceelFullParameterSearchV2ResponseType, error) {
 	response := new(AddressPerceelFullParameterSearchV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressPerceelFullParameterSearchV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressPerceelFullParameterSearchV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19088,7 +19088,7 @@ func (service *webservicesNLPortType) AddressPerceelFullParameterSearchV2(reques
 
 func (service *webservicesNLPortType) AddressProvinceListNeighborhoods(request *AddressProvinceListNeighborhoodsRequestType) (*AddressProvinceListNeighborhoodsResponseType, error) {
 	response := new(AddressProvinceListNeighborhoodsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressProvinceListNeighborhoods", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressProvinceListNeighborhoods", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19098,7 +19098,7 @@ func (service *webservicesNLPortType) AddressProvinceListNeighborhoods(request *
 
 func (service *webservicesNLPortType) AddressProvinceListDistricts(request *AddressProvinceListDistrictsRequestType) (*AddressProvinceListDistrictsResponseType, error) {
 	response := new(AddressProvinceListDistrictsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressProvinceListDistricts", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressProvinceListDistricts", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19108,7 +19108,7 @@ func (service *webservicesNLPortType) AddressProvinceListDistricts(request *Addr
 
 func (service *webservicesNLPortType) AddressProvinceList(request *AddressProvinceListRequestType) (*AddressProvinceListResponseType, error) {
 	response := new(AddressProvinceListResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressProvinceList", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressProvinceList", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19118,7 +19118,7 @@ func (service *webservicesNLPortType) AddressProvinceList(request *AddressProvin
 
 func (service *webservicesNLPortType) AddressProvinceSearch(request *AddressProvinceSearchRequestType) (*AddressProvinceSearchResponseType, error) {
 	response := new(AddressProvinceSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressProvinceSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressProvinceSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19128,7 +19128,7 @@ func (service *webservicesNLPortType) AddressProvinceSearch(request *AddressProv
 
 func (service *webservicesNLPortType) AddressDistrictSearch(request *AddressDistrictSearchRequestType) (*AddressDistrictSearchResponseType, error) {
 	response := new(AddressDistrictSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressDistrictSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressDistrictSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19138,7 +19138,7 @@ func (service *webservicesNLPortType) AddressDistrictSearch(request *AddressDist
 
 func (service *webservicesNLPortType) AddressDistrictListCities(request *AddressDistrictListCitiesRequestType) (*AddressDistrictListCitiesResponseType, error) {
 	response := new(AddressDistrictListCitiesResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressDistrictListCities", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressDistrictListCities", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19148,7 +19148,7 @@ func (service *webservicesNLPortType) AddressDistrictListCities(request *Address
 
 func (service *webservicesNLPortType) AddressDistrictListNeighborhoods(request *AddressDistrictListNeighborhoodsRequestType) (*AddressDistrictListNeighborhoodsResponseType, error) {
 	response := new(AddressDistrictListNeighborhoodsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressDistrictListNeighborhoods", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressDistrictListNeighborhoods", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19158,7 +19158,7 @@ func (service *webservicesNLPortType) AddressDistrictListNeighborhoods(request *
 
 func (service *webservicesNLPortType) AddressCitySearchV2(request *AddressCitySearchV2RequestType) (*AddressCitySearchV2ResponseType, error) {
 	response := new(AddressCitySearchV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressCitySearchV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressCitySearchV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19168,7 +19168,7 @@ func (service *webservicesNLPortType) AddressCitySearchV2(request *AddressCitySe
 
 func (service *webservicesNLPortType) AddressCityListNeighborhoods(request *AddressCityListNeighborhoodsRequestType) (*AddressCityListNeighborhoodsResponseType, error) {
 	response := new(AddressCityListNeighborhoodsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressCityListNeighborhoods", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressCityListNeighborhoods", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19178,7 +19178,7 @@ func (service *webservicesNLPortType) AddressCityListNeighborhoods(request *Addr
 
 func (service *webservicesNLPortType) AddressPerceelFullParameterSearch(request *AddressPerceelFullParameterSearchRequestType) (*AddressPerceelFullParameterSearchResponseType, error) {
 	response := new(AddressPerceelFullParameterSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressPerceelFullParameterSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressPerceelFullParameterSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19188,7 +19188,7 @@ func (service *webservicesNLPortType) AddressPerceelFullParameterSearch(request 
 
 func (service *webservicesNLPortType) AddressPerceelParameterSearch(request *AddressPerceelParameterSearchRequestType) (*AddressPerceelParameterSearchResponseType, error) {
 	response := new(AddressPerceelParameterSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressPerceelParameterSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressPerceelParameterSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19198,7 +19198,7 @@ func (service *webservicesNLPortType) AddressPerceelParameterSearch(request *Add
 
 func (service *webservicesNLPortType) AddressReeksPhraseSearch(request *AddressReeksPhraseSearchRequestType) (*AddressReeksPhraseSearchResponseType, error) {
 	response := new(AddressReeksPhraseSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressReeksPhraseSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressReeksPhraseSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19208,7 +19208,7 @@ func (service *webservicesNLPortType) AddressReeksPhraseSearch(request *AddressR
 
 func (service *webservicesNLPortType) AddressNeighborhoodName(request *AddressNeighborhoodNameRequestType) (*AddressNeighborhoodNameResponseType, error) {
 	response := new(AddressNeighborhoodNameResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressNeighborhoodName", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressNeighborhoodName", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19218,7 +19218,7 @@ func (service *webservicesNLPortType) AddressNeighborhoodName(request *AddressNe
 
 func (service *webservicesNLPortType) AddressNeighborhoodPhraseSearch(request *AddressNeighborhoodPhraseSearchRequestType) (*AddressNeighborhoodPhraseSearchResponseType, error) {
 	response := new(AddressNeighborhoodPhraseSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/addressNeighborhoodPhraseSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/addressNeighborhoodPhraseSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19228,7 +19228,7 @@ func (service *webservicesNLPortType) AddressNeighborhoodPhraseSearch(request *A
 
 func (service *webservicesNLPortType) AreaCodeLookup(request *AreaCodeLookupRequestType) (*AreaCodeLookupResponseType, error) {
 	response := new(AreaCodeLookupResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/areaCodeLookup", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/areaCodeLookup", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19238,7 +19238,7 @@ func (service *webservicesNLPortType) AreaCodeLookup(request *AreaCodeLookupRequ
 
 func (service *webservicesNLPortType) AreaCodeToNeighborhoodcode(request *AreaCodeToNeighborhoodcodeRequestType) (*AreaCodeToNeighborhoodcodeResponseType, error) {
 	response := new(AreaCodeToNeighborhoodcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/areaCodeToNeighborhoodcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/areaCodeToNeighborhoodcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19248,7 +19248,7 @@ func (service *webservicesNLPortType) AreaCodeToNeighborhoodcode(request *AreaCo
 
 func (service *webservicesNLPortType) AreaCodePostcodeLookup(request *AreaCodePostcodeLookupRequestType) (*AreaCodePostcodeLookupResponseType, error) {
 	response := new(AreaCodePostcodeLookupResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/areaCodePostcodeLookup", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/areaCodePostcodeLookup", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19258,7 +19258,7 @@ func (service *webservicesNLPortType) AreaCodePostcodeLookup(request *AreaCodePo
 
 func (service *webservicesNLPortType) Login(request *LoginRequestType) (*LoginResponseType, error) {
 	response := new(LoginResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/login", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/login", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19268,7 +19268,7 @@ func (service *webservicesNLPortType) Login(request *LoginRequestType) (*LoginRe
 
 func (service *webservicesNLPortType) Logout(request *LogoutRequestType) (*LogoutResponseType, error) {
 	response := new(LogoutResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/logout", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/logout", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19278,7 +19278,7 @@ func (service *webservicesNLPortType) Logout(request *LogoutRequestType) (*Logou
 
 func (service *webservicesNLPortType) BelgianBusinessGetDossier(request *BelgianBusinessGetDossierRequestType) (*BelgianBusinessGetDossierResponseType, error) {
 	response := new(BelgianBusinessGetDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/belgianBusinessGetDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/belgianBusinessGetDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19288,7 +19288,7 @@ func (service *webservicesNLPortType) BelgianBusinessGetDossier(request *Belgian
 
 func (service *webservicesNLPortType) BovagGetMemberByBovagId(request *BovagGetMemberByBovagIdRequestType) (*BovagGetMemberByBovagIdResponseType, error) {
 	response := new(BovagGetMemberByBovagIdResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/bovagGetMemberByBovagId", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/bovagGetMemberByBovagId", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19298,7 +19298,7 @@ func (service *webservicesNLPortType) BovagGetMemberByBovagId(request *BovagGetM
 
 func (service *webservicesNLPortType) BovagGetMemberByDutchBusiness(request *BovagGetMemberByDutchBusinessRequestType) (*BovagGetMemberByDutchBusinessResponseType, error) {
 	response := new(BovagGetMemberByDutchBusinessResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/bovagGetMemberByDutchBusiness", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/bovagGetMemberByDutchBusiness", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19308,7 +19308,7 @@ func (service *webservicesNLPortType) BovagGetMemberByDutchBusiness(request *Bov
 
 func (service *webservicesNLPortType) BusinessGetEstablishmentNumber(request *BusinessGetEstablishmentNumberRequestType) (*BusinessGetEstablishmentNumberResponseType, error) {
 	response := new(BusinessGetEstablishmentNumberResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessGetEstablishmentNumber", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessGetEstablishmentNumber", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19318,7 +19318,7 @@ func (service *webservicesNLPortType) BusinessGetEstablishmentNumber(request *Bu
 
 func (service *webservicesNLPortType) BusinessGetBIKDescription(request *BusinessGetBIKDescriptionRequestType) (*BusinessGetBIKDescriptionResponseType, error) {
 	response := new(BusinessGetBIKDescriptionResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessGetBIKDescription", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessGetBIKDescription", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19328,7 +19328,7 @@ func (service *webservicesNLPortType) BusinessGetBIKDescription(request *Busines
 
 func (service *webservicesNLPortType) BusinessGetSBIDescription(request *BusinessGetSBIDescriptionRequestType) (*BusinessGetSBIDescriptionResponseType, error) {
 	response := new(BusinessGetSBIDescriptionResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessGetSBIDescription", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessGetSBIDescription", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19338,7 +19338,7 @@ func (service *webservicesNLPortType) BusinessGetSBIDescription(request *Busines
 
 func (service *webservicesNLPortType) BusinessBIKToSBI(request *BusinessBIKToSBIRequestType) (*BusinessBIKToSBIResponseType, error) {
 	response := new(BusinessBIKToSBIResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessBIKToSBI", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessBIKToSBI", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19348,7 +19348,7 @@ func (service *webservicesNLPortType) BusinessBIKToSBI(request *BusinessBIKToSBI
 
 func (service *webservicesNLPortType) BusinessSBIToBIK(request *BusinessSBIToBIKRequestType) (*BusinessSBIToBIKResponseType, error) {
 	response := new(BusinessSBIToBIKResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessSBIToBIK", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessSBIToBIK", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19358,7 +19358,7 @@ func (service *webservicesNLPortType) BusinessSBIToBIK(request *BusinessSBIToBIK
 
 func (service *webservicesNLPortType) BusinessGetDossierV3(request *BusinessGetDossierV3RequestType) (*BusinessGetDossierV3ResponseType, error) {
 	response := new(BusinessGetDossierV3ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessGetDossierV3", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessGetDossierV3", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19368,7 +19368,7 @@ func (service *webservicesNLPortType) BusinessGetDossierV3(request *BusinessGetD
 
 func (service *webservicesNLPortType) BusinessGetDossierExtended(request *BusinessGetDossierExtendedRequestType) (*BusinessGetDossierExtendedResponseType, error) {
 	response := new(BusinessGetDossierExtendedResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessGetDossierExtended", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessGetDossierExtended", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19378,7 +19378,7 @@ func (service *webservicesNLPortType) BusinessGetDossierExtended(request *Busine
 
 func (service *webservicesNLPortType) BusinessSearchDossierNumber(request *BusinessSearchDossierNumberRequestType) (*BusinessSearchDossierNumberResponseType, error) {
 	response := new(BusinessSearchDossierNumberResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessSearchDossierNumber", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessSearchDossierNumber", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19388,7 +19388,7 @@ func (service *webservicesNLPortType) BusinessSearchDossierNumber(request *Busin
 
 func (service *webservicesNLPortType) BusinessSearchPostcode(request *BusinessSearchPostcodeRequestType) (*BusinessSearchPostcodeResponseType, error) {
 	response := new(BusinessSearchPostcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessSearchPostcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessSearchPostcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19398,7 +19398,7 @@ func (service *webservicesNLPortType) BusinessSearchPostcode(request *BusinessSe
 
 func (service *webservicesNLPortType) BusinessSearchAddress(request *BusinessSearchAddressRequestType) (*BusinessSearchAddressResponseType, error) {
 	response := new(BusinessSearchAddressResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessSearchAddress", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessSearchAddress", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19408,7 +19408,7 @@ func (service *webservicesNLPortType) BusinessSearchAddress(request *BusinessSea
 
 func (service *webservicesNLPortType) BusinessSearchName(request *BusinessSearchNameRequestType) (*BusinessSearchNameResponseType, error) {
 	response := new(BusinessSearchNameResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessSearchName", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessSearchName", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19418,7 +19418,7 @@ func (service *webservicesNLPortType) BusinessSearchName(request *BusinessSearch
 
 func (service *webservicesNLPortType) BusinessSearchParameters(request *BusinessSearchParametersRequestType) (*BusinessSearchParametersResponseType, error) {
 	response := new(BusinessSearchParametersResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessSearchParameters", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessSearchParameters", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19428,7 +19428,7 @@ func (service *webservicesNLPortType) BusinessSearchParameters(request *Business
 
 func (service *webservicesNLPortType) BusinessSearchParametersV3(request *BusinessSearchParametersV3RequestType) (*BusinessSearchParametersV3ResponseType, error) {
 	response := new(BusinessSearchParametersV3ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessSearchParametersV3", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessSearchParametersV3", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19438,7 +19438,7 @@ func (service *webservicesNLPortType) BusinessSearchParametersV3(request *Busine
 
 func (service *webservicesNLPortType) BusinessSearchSelection(request *BusinessSearchSelectionRequestType) (*BusinessSearchSelectionResponseType, error) {
 	response := new(BusinessSearchSelectionResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessSearchSelection", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessSearchSelection", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19448,7 +19448,7 @@ func (service *webservicesNLPortType) BusinessSearchSelection(request *BusinessS
 
 func (service *webservicesNLPortType) BusinessSearchSelectionV2(request *BusinessSearchSelectionV2RequestType) (*BusinessSearchSelectionV2ResponseType, error) {
 	response := new(BusinessSearchSelectionV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessSearchSelectionV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessSearchSelectionV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19458,7 +19458,7 @@ func (service *webservicesNLPortType) BusinessSearchSelectionV2(request *Busines
 
 func (service *webservicesNLPortType) BusinessGetDossierSBI(request *BusinessGetDossierSBIRequestType) (*BusinessGetDossierSBIResponseType, error) {
 	response := new(BusinessGetDossierSBIResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessGetDossierSBI", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessGetDossierSBI", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19468,7 +19468,7 @@ func (service *webservicesNLPortType) BusinessGetDossierSBI(request *BusinessGet
 
 func (service *webservicesNLPortType) BusinessUpdateCheckDossier(request *BusinessUpdateCheckDossierRequestType) (*BusinessUpdateCheckDossierResponseType, error) {
 	response := new(BusinessUpdateCheckDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessUpdateCheckDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessUpdateCheckDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19478,7 +19478,7 @@ func (service *webservicesNLPortType) BusinessUpdateCheckDossier(request *Busine
 
 func (service *webservicesNLPortType) BusinessUpdateGetChangedDossiers(request *BusinessUpdateGetChangedDossiersRequestType) (*BusinessUpdateGetChangedDossiersResponseType, error) {
 	response := new(BusinessUpdateGetChangedDossiersResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessUpdateGetChangedDossiers", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessUpdateGetChangedDossiers", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19488,7 +19488,7 @@ func (service *webservicesNLPortType) BusinessUpdateGetChangedDossiers(request *
 
 func (service *webservicesNLPortType) BusinessUpdateGetDossiers(request *BusinessUpdateGetDossiersRequestType) (*BusinessUpdateGetDossiersResponseType, error) {
 	response := new(BusinessUpdateGetDossiersResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessUpdateGetDossiers", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessUpdateGetDossiers", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19498,7 +19498,7 @@ func (service *webservicesNLPortType) BusinessUpdateGetDossiers(request *Busines
 
 func (service *webservicesNLPortType) BusinessUpdateAddDossier(request *BusinessUpdateAddDossierRequestType) (*BusinessUpdateAddDossierResponseType, error) {
 	response := new(BusinessUpdateAddDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessUpdateAddDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessUpdateAddDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19508,7 +19508,7 @@ func (service *webservicesNLPortType) BusinessUpdateAddDossier(request *Business
 
 func (service *webservicesNLPortType) BusinessUpdateRemoveDossier(request *BusinessUpdateRemoveDossierRequestType) (*BusinessUpdateRemoveDossierResponseType, error) {
 	response := new(BusinessUpdateRemoveDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessUpdateRemoveDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessUpdateRemoveDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19518,7 +19518,7 @@ func (service *webservicesNLPortType) BusinessUpdateRemoveDossier(request *Busin
 
 func (service *webservicesNLPortType) BusinessSearchParametersV2(request *BusinessSearchParametersV2RequestType) (*BusinessSearchParametersV2ResponseType, error) {
 	response := new(BusinessSearchParametersV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/businessSearchParametersV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/businessSearchParametersV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19528,7 +19528,7 @@ func (service *webservicesNLPortType) BusinessSearchParametersV2(request *Busine
 
 func (service *webservicesNLPortType) CarRDWCarCheckCode(request *CarRDWCarCheckCodeRequestType) (*CarRDWCarCheckCodeResponseType, error) {
 	response := new(CarRDWCarCheckCodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carRDWCarCheckCode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carRDWCarCheckCode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19538,7 +19538,7 @@ func (service *webservicesNLPortType) CarRDWCarCheckCode(request *CarRDWCarCheck
 
 func (service *webservicesNLPortType) CarRDWCarDataV3(request *CarRDWCarDataV3RequestType) (*CarRDWCarDataV3ResponseType, error) {
 	response := new(CarRDWCarDataV3ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carRDWCarDataV3", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataV3", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19548,7 +19548,7 @@ func (service *webservicesNLPortType) CarRDWCarDataV3(request *CarRDWCarDataV3Re
 
 func (service *webservicesNLPortType) CarRDWCarDataBPV2(request *CarRDWCarDataBPV2RequestType) (*CarRDWCarDataBPV2ResponseType, error) {
 	response := new(CarRDWCarDataBPV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carRDWCarDataBPV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataBPV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19558,7 +19558,7 @@ func (service *webservicesNLPortType) CarRDWCarDataBPV2(request *CarRDWCarDataBP
 
 func (service *webservicesNLPortType) CarRDWCarDataExtended(request *CarRDWCarDataExtendedRequestType) (*CarRDWCarDataExtendedResponseType, error) {
 	response := new(CarRDWCarDataExtendedResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carRDWCarDataExtended", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataExtended", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19568,7 +19568,7 @@ func (service *webservicesNLPortType) CarRDWCarDataExtended(request *CarRDWCarDa
 
 func (service *webservicesNLPortType) CarRDWCarDataPrice(request *CarRDWCarDataPriceRequestType) (*CarRDWCarDataPriceResponseType, error) {
 	response := new(CarRDWCarDataPriceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carRDWCarDataPrice", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataPrice", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19578,7 +19578,7 @@ func (service *webservicesNLPortType) CarRDWCarDataPrice(request *CarRDWCarDataP
 
 func (service *webservicesNLPortType) CarRDWCarDataOptions(request *CarRDWCarDataOptionsRequestType) (*CarRDWCarDataOptionsResponseType, error) {
 	response := new(CarRDWCarDataOptionsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carRDWCarDataOptions", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataOptions", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19588,7 +19588,7 @@ func (service *webservicesNLPortType) CarRDWCarDataOptions(request *CarRDWCarDat
 
 func (service *webservicesNLPortType) CarVWEMeldcodeCheck(request *CarVWEMeldcodeCheckRequestType) (*CarVWEMeldcodeCheckResponseType, error) {
 	response := new(CarVWEMeldcodeCheckResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carVWEMeldcodeCheck", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carVWEMeldcodeCheck", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19598,7 +19598,7 @@ func (service *webservicesNLPortType) CarVWEMeldcodeCheck(request *CarVWEMeldcod
 
 func (service *webservicesNLPortType) CarVWEBasicTypeData(request *CarVWEBasicTypeDataRequestType) (*CarVWEBasicTypeDataResponseType, error) {
 	response := new(CarVWEBasicTypeDataResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carVWEBasicTypeData", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carVWEBasicTypeData", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19608,7 +19608,7 @@ func (service *webservicesNLPortType) CarVWEBasicTypeData(request *CarVWEBasicTy
 
 func (service *webservicesNLPortType) CarVWEVersionPrice(request *CarVWEVersionPriceRequestType) (*CarVWEVersionPriceResponseType, error) {
 	response := new(CarVWEVersionPriceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carVWEVersionPrice", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carVWEVersionPrice", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19618,7 +19618,7 @@ func (service *webservicesNLPortType) CarVWEVersionPrice(request *CarVWEVersionP
 
 func (service *webservicesNLPortType) CarVWEOptions(request *CarVWEOptionsRequestType) (*CarVWEOptionsResponseType, error) {
 	response := new(CarVWEOptionsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carVWEOptions", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carVWEOptions", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19628,7 +19628,7 @@ func (service *webservicesNLPortType) CarVWEOptions(request *CarVWEOptionsReques
 
 func (service *webservicesNLPortType) CarVWEListBrands(request *CarVWEListBrandsRequestType) (*CarVWEListBrandsResponseType, error) {
 	response := new(CarVWEListBrandsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carVWEListBrands", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carVWEListBrands", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19638,7 +19638,7 @@ func (service *webservicesNLPortType) CarVWEListBrands(request *CarVWEListBrands
 
 func (service *webservicesNLPortType) CarVWEListModels(request *CarVWEListModelsRequestType) (*CarVWEListModelsResponseType, error) {
 	response := new(CarVWEListModelsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carVWEListModels", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carVWEListModels", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19648,7 +19648,7 @@ func (service *webservicesNLPortType) CarVWEListModels(request *CarVWEListModels
 
 func (service *webservicesNLPortType) CarVWEListVersions(request *CarVWEListVersionsRequestType) (*CarVWEListVersionsResponseType, error) {
 	response := new(CarVWEListVersionsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carVWEListVersions", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carVWEListVersions", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19658,7 +19658,7 @@ func (service *webservicesNLPortType) CarVWEListVersions(request *CarVWEListVers
 
 func (service *webservicesNLPortType) CarVWEVersionYearData(request *CarVWEVersionYearDataRequestType) (*CarVWEVersionYearDataResponseType, error) {
 	response := new(CarVWEVersionYearDataResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carVWEVersionYearData", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carVWEVersionYearData", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19668,7 +19668,7 @@ func (service *webservicesNLPortType) CarVWEVersionYearData(request *CarVWEVersi
 
 func (service *webservicesNLPortType) CarVWEPhotos(request *CarVWEPhotosRequestType) (*CarVWEPhotosResponseType, error) {
 	response := new(CarVWEPhotosResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carVWEPhotos", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carVWEPhotos", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19678,7 +19678,7 @@ func (service *webservicesNLPortType) CarVWEPhotos(request *CarVWEPhotosRequestT
 
 func (service *webservicesNLPortType) CarATDPrice(request *CarATDPriceRequestType) (*CarATDPriceResponseType, error) {
 	response := new(CarATDPriceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carATDPrice", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carATDPrice", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19688,7 +19688,7 @@ func (service *webservicesNLPortType) CarATDPrice(request *CarATDPriceRequestTyp
 
 func (service *webservicesNLPortType) CarRDWCarData(request *CarRDWCarDataRequestType) (*CarRDWCarDataResponseType, error) {
 	response := new(CarRDWCarDataResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carRDWCarData", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carRDWCarData", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19698,7 +19698,7 @@ func (service *webservicesNLPortType) CarRDWCarData(request *CarRDWCarDataReques
 
 func (service *webservicesNLPortType) CarRDWCarDataV2(request *CarRDWCarDataV2RequestType) (*CarRDWCarDataV2ResponseType, error) {
 	response := new(CarRDWCarDataV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carRDWCarDataV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19708,7 +19708,7 @@ func (service *webservicesNLPortType) CarRDWCarDataV2(request *CarRDWCarDataV2Re
 
 func (service *webservicesNLPortType) CarRDWCarDataBP(request *CarRDWCarDataBPRequestType) (*CarRDWCarDataBPResponseType, error) {
 	response := new(CarRDWCarDataBPResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/carRDWCarDataBP", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/carRDWCarDataBP", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19718,7 +19718,7 @@ func (service *webservicesNLPortType) CarRDWCarDataBP(request *CarRDWCarDataBPRe
 
 func (service *webservicesNLPortType) ComplianceSearchPersons(request *ComplianceSearchPersonsRequestType) (*ComplianceSearchPersonsResponseType, error) {
 	response := new(ComplianceSearchPersonsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/complianceSearchPersons", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/complianceSearchPersons", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19728,7 +19728,7 @@ func (service *webservicesNLPortType) ComplianceSearchPersons(request *Complianc
 
 func (service *webservicesNLPortType) ComplianceGetPerson(request *ComplianceGetPersonRequestType) (*ComplianceGetPersonResponseType, error) {
 	response := new(ComplianceGetPersonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/complianceGetPerson", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/complianceGetPerson", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19738,7 +19738,7 @@ func (service *webservicesNLPortType) ComplianceGetPerson(request *ComplianceGet
 
 func (service *webservicesNLPortType) ComplianceSearchBusinesses(request *ComplianceSearchBusinessesRequestType) (*ComplianceSearchBusinessesResponseType, error) {
 	response := new(ComplianceSearchBusinessesResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/complianceSearchBusinesses", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/complianceSearchBusinesses", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19748,7 +19748,7 @@ func (service *webservicesNLPortType) ComplianceSearchBusinesses(request *Compli
 
 func (service *webservicesNLPortType) ComplianceGetBusiness(request *ComplianceGetBusinessRequestType) (*ComplianceGetBusinessResponseType, error) {
 	response := new(ComplianceGetBusinessResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/complianceGetBusiness", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/complianceGetBusiness", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19758,7 +19758,7 @@ func (service *webservicesNLPortType) ComplianceGetBusiness(request *ComplianceG
 
 func (service *webservicesNLPortType) CreditsafeGetReportFull(request *CreditsafeGetReportFullRequestType) (*CreditsafeGetReportFullResponseType, error) {
 	response := new(CreditsafeGetReportFullResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/creditsafeGetReportFull", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/creditsafeGetReportFull", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19768,7 +19768,7 @@ func (service *webservicesNLPortType) CreditsafeGetReportFull(request *Creditsaf
 
 func (service *webservicesNLPortType) CreditsafeSearch(request *CreditsafeSearchRequestType) (*CreditsafeSearchResponseType, error) {
 	response := new(CreditsafeSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/creditsafeSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/creditsafeSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19778,7 +19778,7 @@ func (service *webservicesNLPortType) CreditsafeSearch(request *CreditsafeSearch
 
 func (service *webservicesNLPortType) CreditsafeSearchV2(request *CreditsafeSearchV2RequestType) (*CreditsafeSearchV2ResponseType, error) {
 	response := new(CreditsafeSearchV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/creditsafeSearchV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/creditsafeSearchV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19788,7 +19788,7 @@ func (service *webservicesNLPortType) CreditsafeSearchV2(request *CreditsafeSear
 
 func (service *webservicesNLPortType) CreditsafeGetReportFullV2(request *CreditsafeGetReportFullV2RequestType) (*CreditsafeGetReportFullV2ResponseType, error) {
 	response := new(CreditsafeGetReportFullV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/creditsafeGetReportFullV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/creditsafeGetReportFullV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19798,7 +19798,7 @@ func (service *webservicesNLPortType) CreditsafeGetReportFullV2(request *Credits
 
 func (service *webservicesNLPortType) CreditsafeSearchCriteria(request *CreditsafeSearchCriteriaRequestType) (*CreditsafeSearchCriteriaResponseType, error) {
 	response := new(CreditsafeSearchCriteriaResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/creditsafeSearchCriteria", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/creditsafeSearchCriteria", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19808,7 +19808,7 @@ func (service *webservicesNLPortType) CreditsafeSearchCriteria(request *Creditsa
 
 func (service *webservicesNLPortType) CreditsafeMonitorAddCompany(request *CreditsafeMonitorAddCompanyRequestType) (*CreditsafeMonitorAddCompanyResponseType, error) {
 	response := new(CreditsafeMonitorAddCompanyResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/creditsafeMonitorAddCompany", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/creditsafeMonitorAddCompany", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19818,7 +19818,7 @@ func (service *webservicesNLPortType) CreditsafeMonitorAddCompany(request *Credi
 
 func (service *webservicesNLPortType) CreditsafeMonitorRemoveCompany(request *CreditsafeMonitorRemoveCompanyRequestType) (*CreditsafeMonitorRemoveCompanyResponseType, error) {
 	response := new(CreditsafeMonitorRemoveCompanyResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/creditsafeMonitorRemoveCompany", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/creditsafeMonitorRemoveCompany", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19828,7 +19828,7 @@ func (service *webservicesNLPortType) CreditsafeMonitorRemoveCompany(request *Cr
 
 func (service *webservicesNLPortType) CreditsafeMonitorGetUpdatedCompanies(request *CreditsafeMonitorGetUpdatedCompaniesRequestType) (*CreditsafeMonitorGetUpdatedCompaniesResponseType, error) {
 	response := new(CreditsafeMonitorGetUpdatedCompaniesResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/creditsafeMonitorGetUpdatedCompanies", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/creditsafeMonitorGetUpdatedCompanies", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19838,7 +19838,7 @@ func (service *webservicesNLPortType) CreditsafeMonitorGetUpdatedCompanies(reque
 
 func (service *webservicesNLPortType) DnbSearchReferenceV2(request *DnbSearchReferenceV2RequestType) (*DnbSearchReferenceV2ResponseType, error) {
 	response := new(DnbSearchReferenceV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dnbSearchReferenceV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dnbSearchReferenceV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19848,7 +19848,7 @@ func (service *webservicesNLPortType) DnbSearchReferenceV2(request *DnbSearchRef
 
 func (service *webservicesNLPortType) DnbGetReference(request *DnbGetReferenceRequestType) (*DnbGetReferenceResponseType, error) {
 	response := new(DnbGetReferenceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dnbGetReference", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dnbGetReference", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19858,7 +19858,7 @@ func (service *webservicesNLPortType) DnbGetReference(request *DnbGetReferenceRe
 
 func (service *webservicesNLPortType) DnbWorldbaseMarketing(request *DnbWorldbaseMarketingRequestType) (*DnbWorldbaseMarketingResponseType, error) {
 	response := new(DnbWorldbaseMarketingResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dnbWorldbaseMarketing", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dnbWorldbaseMarketing", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19868,7 +19868,7 @@ func (service *webservicesNLPortType) DnbWorldbaseMarketing(request *DnbWorldbas
 
 func (service *webservicesNLPortType) DnbWorldbaseMarketingPlus(request *DnbWorldbaseMarketingPlusRequestType) (*DnbWorldbaseMarketingPlusResponseType, error) {
 	response := new(DnbWorldbaseMarketingPlusResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dnbWorldbaseMarketingPlus", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dnbWorldbaseMarketingPlus", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19878,7 +19878,7 @@ func (service *webservicesNLPortType) DnbWorldbaseMarketingPlus(request *DnbWorl
 
 func (service *webservicesNLPortType) DnbWorldbaseMarketingPlusLinkage(request *DnbWorldbaseMarketingPlusLinkageRequestType) (*DnbWorldbaseMarketingPlusLinkageResponseType, error) {
 	response := new(DnbWorldbaseMarketingPlusLinkageResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dnbWorldbaseMarketingPlusLinkage", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dnbWorldbaseMarketingPlusLinkage", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19888,7 +19888,7 @@ func (service *webservicesNLPortType) DnbWorldbaseMarketingPlusLinkage(request *
 
 func (service *webservicesNLPortType) DnbQuickCheck(request *DnbQuickCheckRequestType) (*DnbQuickCheckResponseType, error) {
 	response := new(DnbQuickCheckResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dnbQuickCheck", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dnbQuickCheck", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19898,7 +19898,7 @@ func (service *webservicesNLPortType) DnbQuickCheck(request *DnbQuickCheckReques
 
 func (service *webservicesNLPortType) DnbBusinessVerification(request *DnbBusinessVerificationRequestType) (*DnbBusinessVerificationResponseType, error) {
 	response := new(DnbBusinessVerificationResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dnbBusinessVerification", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dnbBusinessVerification", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19908,7 +19908,7 @@ func (service *webservicesNLPortType) DnbBusinessVerification(request *DnbBusine
 
 func (service *webservicesNLPortType) DnbEnterpriseManagement(request *DnbEnterpriseManagementRequestType) (*DnbEnterpriseManagementResponseType, error) {
 	response := new(DnbEnterpriseManagementResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dnbEnterpriseManagement", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dnbEnterpriseManagement", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19918,7 +19918,7 @@ func (service *webservicesNLPortType) DnbEnterpriseManagement(request *DnbEnterp
 
 func (service *webservicesNLPortType) DnbSearchReference(request *DnbSearchReferenceRequestType) (*DnbSearchReferenceResponseType, error) {
 	response := new(DnbSearchReferenceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dnbSearchReference", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dnbSearchReference", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19928,7 +19928,7 @@ func (service *webservicesNLPortType) DnbSearchReference(request *DnbSearchRefer
 
 func (service *webservicesNLPortType) DriveInfoDistanceLookup(request *DriveInfoDistanceLookupRequestType) (*DriveInfoDistanceLookupResponseType, error) {
 	response := new(DriveInfoDistanceLookupResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/driveInfoDistanceLookup", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/driveInfoDistanceLookup", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19938,7 +19938,7 @@ func (service *webservicesNLPortType) DriveInfoDistanceLookup(request *DriveInfo
 
 func (service *webservicesNLPortType) DriveInfoTimeLookup(request *DriveInfoTimeLookupRequestType) (*DriveInfoTimeLookupResponseType, error) {
 	response := new(DriveInfoTimeLookupResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/driveInfoTimeLookup", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/driveInfoTimeLookup", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19948,7 +19948,7 @@ func (service *webservicesNLPortType) DriveInfoTimeLookup(request *DriveInfoTime
 
 func (service *webservicesNLPortType) DutchAddressRangePostcodeSearch(request *DutchAddressRangePostcodeSearchRequestType) (*DutchAddressRangePostcodeSearchResponseType, error) {
 	response := new(DutchAddressRangePostcodeSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchAddressRangePostcodeSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchAddressRangePostcodeSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19958,7 +19958,7 @@ func (service *webservicesNLPortType) DutchAddressRangePostcodeSearch(request *D
 
 func (service *webservicesNLPortType) DutchBusinessGetDossier(request *DutchBusinessGetDossierRequestType) (*DutchBusinessGetDossierResponseType, error) {
 	response := new(DutchBusinessGetDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19968,7 +19968,7 @@ func (service *webservicesNLPortType) DutchBusinessGetDossier(request *DutchBusi
 
 func (service *webservicesNLPortType) DutchBusinessGetDossierV2(request *DutchBusinessGetDossierV2RequestType) (*DutchBusinessGetDossierV2ResponseType, error) {
 	response := new(DutchBusinessGetDossierV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetDossierV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetDossierV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19978,7 +19978,7 @@ func (service *webservicesNLPortType) DutchBusinessGetDossierV2(request *DutchBu
 
 func (service *webservicesNLPortType) DutchBusinessGetDossierV3(request *DutchBusinessGetDossierV3RequestType) (*DutchBusinessGetDossierV3ResponseType, error) {
 	response := new(DutchBusinessGetDossierV3ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetDossierV3", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetDossierV3", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19988,7 +19988,7 @@ func (service *webservicesNLPortType) DutchBusinessGetDossierV3(request *DutchBu
 
 func (service *webservicesNLPortType) DutchBusinessGetSBI(request *DutchBusinessGetSBIRequestType) (*DutchBusinessGetSBIResponseType, error) {
 	response := new(DutchBusinessGetSBIResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetSBI", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetSBI", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -19998,7 +19998,7 @@ func (service *webservicesNLPortType) DutchBusinessGetSBI(request *DutchBusiness
 
 func (service *webservicesNLPortType) DutchBusinessGetVatNumber(request *DutchBusinessGetVatNumberRequestType) (*DutchBusinessGetVatNumberResponseType, error) {
 	response := new(DutchBusinessGetVatNumberResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetVatNumber", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetVatNumber", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20008,7 +20008,7 @@ func (service *webservicesNLPortType) DutchBusinessGetVatNumber(request *DutchBu
 
 func (service *webservicesNLPortType) DutchBusinessGetPositions(request *DutchBusinessGetPositionsRequestType) (*DutchBusinessGetPositionsResponseType, error) {
 	response := new(DutchBusinessGetPositionsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetPositions", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetPositions", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20018,7 +20018,7 @@ func (service *webservicesNLPortType) DutchBusinessGetPositions(request *DutchBu
 
 func (service *webservicesNLPortType) DutchBusinessGetLegalEntity(request *DutchBusinessGetLegalEntityRequestType) (*DutchBusinessGetLegalEntityResponseType, error) {
 	response := new(DutchBusinessGetLegalEntityResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetLegalEntity", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetLegalEntity", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20028,7 +20028,7 @@ func (service *webservicesNLPortType) DutchBusinessGetLegalEntity(request *Dutch
 
 func (service *webservicesNLPortType) DutchBusinessGetOrganizationTree(request *DutchBusinessGetOrganizationTreeRequestType) (*DutchBusinessGetOrganizationTreeResponseType, error) {
 	response := new(DutchBusinessGetOrganizationTreeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetOrganizationTree", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetOrganizationTree", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20038,7 +20038,7 @@ func (service *webservicesNLPortType) DutchBusinessGetOrganizationTree(request *
 
 func (service *webservicesNLPortType) DutchBusinessGetNonMarketingIndicator(request *DutchBusinessGetNonMarketingIndicatorRequestType) (*DutchBusinessGetNonMarketingIndicatorResponseType, error) {
 	response := new(DutchBusinessGetNonMarketingIndicatorResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetNonMarketingIndicator", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetNonMarketingIndicator", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20048,7 +20048,7 @@ func (service *webservicesNLPortType) DutchBusinessGetNonMarketingIndicator(requ
 
 func (service *webservicesNLPortType) DutchBusinessSearchDossierNumber(request *DutchBusinessSearchDossierNumberRequestType) (*DutchBusinessSearchDossierNumberResponseType, error) {
 	response := new(DutchBusinessSearchDossierNumberResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessSearchDossierNumber", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchDossierNumber", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20058,7 +20058,7 @@ func (service *webservicesNLPortType) DutchBusinessSearchDossierNumber(request *
 
 func (service *webservicesNLPortType) DutchBusinessGetConcernRelationsOverview(request *DutchBusinessGetConcernRelationsOverviewRequestType) (*DutchBusinessGetConcernRelationsOverviewResponseType, error) {
 	response := new(DutchBusinessGetConcernRelationsOverviewResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetConcernRelationsOverview", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetConcernRelationsOverview", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20068,7 +20068,7 @@ func (service *webservicesNLPortType) DutchBusinessGetConcernRelationsOverview(r
 
 func (service *webservicesNLPortType) DutchBusinessGetConcernRelationsDetails(request *DutchBusinessGetConcernRelationsDetailsRequestType) (*DutchBusinessGetConcernRelationsDetailsResponseType, error) {
 	response := new(DutchBusinessGetConcernRelationsDetailsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetConcernRelationsDetails", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetConcernRelationsDetails", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20078,7 +20078,7 @@ func (service *webservicesNLPortType) DutchBusinessGetConcernRelationsDetails(re
 
 func (service *webservicesNLPortType) DutchBusinessSearchParametersV2(request *DutchBusinessSearchParametersV2RequestType) (*DutchBusinessSearchParametersV2ResponseType, error) {
 	response := new(DutchBusinessSearchParametersV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessSearchParametersV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchParametersV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20088,7 +20088,7 @@ func (service *webservicesNLPortType) DutchBusinessSearchParametersV2(request *D
 
 func (service *webservicesNLPortType) DutchBusinessSearch(request *DutchBusinessSearchRequestType) (*DutchBusinessSearchResponseType, error) {
 	response := new(DutchBusinessSearchResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessSearch", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearch", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20098,7 +20098,7 @@ func (service *webservicesNLPortType) DutchBusinessSearch(request *DutchBusiness
 
 func (service *webservicesNLPortType) DutchBusinessSearchEstablishments(request *DutchBusinessSearchEstablishmentsRequestType) (*DutchBusinessSearchEstablishmentsResponseType, error) {
 	response := new(DutchBusinessSearchEstablishmentsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessSearchEstablishments", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchEstablishments", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20108,7 +20108,7 @@ func (service *webservicesNLPortType) DutchBusinessSearchEstablishments(request 
 
 func (service *webservicesNLPortType) DutchBusinessSearchPostcode(request *DutchBusinessSearchPostcodeRequestType) (*DutchBusinessSearchPostcodeResponseType, error) {
 	response := new(DutchBusinessSearchPostcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessSearchPostcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchPostcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20118,7 +20118,7 @@ func (service *webservicesNLPortType) DutchBusinessSearchPostcode(request *Dutch
 
 func (service *webservicesNLPortType) DutchBusinessSearchSelection(request *DutchBusinessSearchSelectionRequestType) (*DutchBusinessSearchSelectionResponseType, error) {
 	response := new(DutchBusinessSearchSelectionResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessSearchSelection", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchSelection", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20128,7 +20128,7 @@ func (service *webservicesNLPortType) DutchBusinessSearchSelection(request *Dutc
 
 func (service *webservicesNLPortType) DutchBusinessSearchSelectionSimple(request *DutchBusinessSearchSelectionSimpleRequestType) (*DutchBusinessSearchSelectionSimpleResponseType, error) {
 	response := new(DutchBusinessSearchSelectionSimpleResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessSearchSelectionSimple", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchSelectionSimple", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20138,7 +20138,7 @@ func (service *webservicesNLPortType) DutchBusinessSearchSelectionSimple(request
 
 func (service *webservicesNLPortType) DutchBusinessGetSBIDescription(request *DutchBusinessGetSBIDescriptionRequestType) (*DutchBusinessGetSBIDescriptionResponseType, error) {
 	response := new(DutchBusinessGetSBIDescriptionResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetSBIDescription", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetSBIDescription", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20148,7 +20148,7 @@ func (service *webservicesNLPortType) DutchBusinessGetSBIDescription(request *Du
 
 func (service *webservicesNLPortType) DutchBusinessGetAnnualFinancialStatement(request *DutchBusinessGetAnnualFinancialStatementRequestType) (*DutchBusinessGetAnnualFinancialStatementResponseType, error) {
 	response := new(DutchBusinessGetAnnualFinancialStatementResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetAnnualFinancialStatement", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetAnnualFinancialStatement", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20158,7 +20158,7 @@ func (service *webservicesNLPortType) DutchBusinessGetAnnualFinancialStatement(r
 
 func (service *webservicesNLPortType) DutchBusinessGetAdditionalPositions(request *DutchBusinessGetAdditionalPositionsRequestType) (*DutchBusinessGetAdditionalPositionsResponseType, error) {
 	response := new(DutchBusinessGetAdditionalPositionsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetAdditionalPositions", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetAdditionalPositions", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20168,7 +20168,7 @@ func (service *webservicesNLPortType) DutchBusinessGetAdditionalPositions(reques
 
 func (service *webservicesNLPortType) DutchBusinessLookALikes(request *DutchBusinessLookALikesRequestType) (*DutchBusinessLookALikesResponseType, error) {
 	response := new(DutchBusinessLookALikesResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessLookALikes", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessLookALikes", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20178,7 +20178,7 @@ func (service *webservicesNLPortType) DutchBusinessLookALikes(request *DutchBusi
 
 func (service *webservicesNLPortType) DutchBusinessGetExtractDocument(request *DutchBusinessGetExtractDocumentRequestType) (*DutchBusinessGetExtractDocumentResponseType, error) {
 	response := new(DutchBusinessGetExtractDocumentResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocument", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocument", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20188,7 +20188,7 @@ func (service *webservicesNLPortType) DutchBusinessGetExtractDocument(request *D
 
 func (service *webservicesNLPortType) DutchBusinessGetExtractDocumentData(request *DutchBusinessGetExtractDocumentDataRequestType) (*DutchBusinessGetExtractDocumentDataResponseType, error) {
 	response := new(DutchBusinessGetExtractDocumentDataResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocumentData", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocumentData", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20198,7 +20198,7 @@ func (service *webservicesNLPortType) DutchBusinessGetExtractDocumentData(reques
 
 func (service *webservicesNLPortType) DutchBusinessGetExtractDocumentDataV2(request *DutchBusinessGetExtractDocumentDataV2RequestType) (*DutchBusinessGetExtractDocumentDataV2ResponseType, error) {
 	response := new(DutchBusinessGetExtractDocumentDataV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocumentDataV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocumentDataV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20208,7 +20208,7 @@ func (service *webservicesNLPortType) DutchBusinessGetExtractDocumentDataV2(requ
 
 func (service *webservicesNLPortType) DutchBusinessGetExtractDocumentDataV3(request *DutchBusinessGetExtractDocumentDataV3RequestType) (*DutchBusinessGetExtractDocumentDataV3ResponseType, error) {
 	response := new(DutchBusinessGetExtractDocumentDataV3ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocumentDataV3", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractDocumentDataV3", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20218,7 +20218,7 @@ func (service *webservicesNLPortType) DutchBusinessGetExtractDocumentDataV3(requ
 
 func (service *webservicesNLPortType) DutchBusinessGetLegalExtractDocumentDataV2(request *DutchBusinessGetLegalExtractDocumentDataV2RequestType) (*DutchBusinessGetLegalExtractDocumentDataV2ResponseType, error) {
 	response := new(DutchBusinessGetLegalExtractDocumentDataV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetLegalExtractDocumentDataV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetLegalExtractDocumentDataV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20228,7 +20228,7 @@ func (service *webservicesNLPortType) DutchBusinessGetLegalExtractDocumentDataV2
 
 func (service *webservicesNLPortType) DutchBusinessGetLegalExtractDocumentDataV3(request *DutchBusinessGetLegalExtractDocumentDataV3RequestType) (*DutchBusinessGetLegalExtractDocumentDataV3ResponseType, error) {
 	response := new(DutchBusinessGetLegalExtractDocumentDataV3ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetLegalExtractDocumentDataV3", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetLegalExtractDocumentDataV3", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20238,7 +20238,7 @@ func (service *webservicesNLPortType) DutchBusinessGetLegalExtractDocumentDataV3
 
 func (service *webservicesNLPortType) DutchBusinessGetExtractHistory(request *DutchBusinessGetExtractHistoryRequestType) (*DutchBusinessGetExtractHistoryResponseType, error) {
 	response := new(DutchBusinessGetExtractHistoryResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistory", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistory", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20248,7 +20248,7 @@ func (service *webservicesNLPortType) DutchBusinessGetExtractHistory(request *Du
 
 func (service *webservicesNLPortType) DutchBusinessGetExtractHistoryChanged(request *DutchBusinessGetExtractHistoryChangedRequestType) (*DutchBusinessGetExtractHistoryChangedResponseType, error) {
 	response := new(DutchBusinessGetExtractHistoryChangedResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryChanged", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryChanged", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20258,7 +20258,7 @@ func (service *webservicesNLPortType) DutchBusinessGetExtractHistoryChanged(requ
 
 func (service *webservicesNLPortType) DutchBusinessGetExtractHistoryDocumentData(request *DutchBusinessGetExtractHistoryDocumentDataRequestType) (*DutchBusinessGetExtractHistoryDocumentDataResponseType, error) {
 	response := new(DutchBusinessGetExtractHistoryDocumentDataResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentData", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentData", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20268,7 +20268,7 @@ func (service *webservicesNLPortType) DutchBusinessGetExtractHistoryDocumentData
 
 func (service *webservicesNLPortType) DutchBusinessGetExtractHistoryDocumentDataV2(request *DutchBusinessGetExtractHistoryDocumentDataV2RequestType) (*DutchBusinessGetExtractHistoryDocumentDataV2ResponseType, error) {
 	response := new(DutchBusinessGetExtractHistoryDocumentDataV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentDataV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentDataV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20278,7 +20278,7 @@ func (service *webservicesNLPortType) DutchBusinessGetExtractHistoryDocumentData
 
 func (service *webservicesNLPortType) DutchBusinessGetExtractHistoryDocumentDataV3(request *DutchBusinessGetExtractHistoryDocumentDataV3RequestType) (*DutchBusinessGetExtractHistoryDocumentDataV3ResponseType, error) {
 	response := new(DutchBusinessGetExtractHistoryDocumentDataV3ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentDataV3", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentDataV3", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20288,7 +20288,7 @@ func (service *webservicesNLPortType) DutchBusinessGetExtractHistoryDocumentData
 
 func (service *webservicesNLPortType) DutchBusinessGetExtractHistoryDocumentDataV3ByDossier(request *DutchBusinessGetExtractHistoryDocumentDataV3ByDossierRequestType) (*DutchBusinessGetExtractHistoryDocumentDataV3ByDossierResponseType, error) {
 	response := new(DutchBusinessGetExtractHistoryDocumentDataV3ByDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentDataV3ByDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetExtractHistoryDocumentDataV3ByDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20298,7 +20298,7 @@ func (service *webservicesNLPortType) DutchBusinessGetExtractHistoryDocumentData
 
 func (service *webservicesNLPortType) DutchBusinessGetDossierHistory(request *DutchBusinessGetDossierHistoryRequestType) (*DutchBusinessGetDossierHistoryResponseType, error) {
 	response := new(DutchBusinessGetDossierHistoryResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetDossierHistory", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetDossierHistory", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20308,7 +20308,7 @@ func (service *webservicesNLPortType) DutchBusinessGetDossierHistory(request *Du
 
 func (service *webservicesNLPortType) DutchBusinessUpdateGetDossiers(request *DutchBusinessUpdateGetDossiersRequestType) (*DutchBusinessUpdateGetDossiersResponseType, error) {
 	response := new(DutchBusinessUpdateGetDossiersResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessUpdateGetDossiers", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateGetDossiers", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20318,7 +20318,7 @@ func (service *webservicesNLPortType) DutchBusinessUpdateGetDossiers(request *Du
 
 func (service *webservicesNLPortType) DutchBusinessUpdateCheckDossier(request *DutchBusinessUpdateCheckDossierRequestType) (*DutchBusinessUpdateCheckDossierResponseType, error) {
 	response := new(DutchBusinessUpdateCheckDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessUpdateCheckDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateCheckDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20328,7 +20328,7 @@ func (service *webservicesNLPortType) DutchBusinessUpdateCheckDossier(request *D
 
 func (service *webservicesNLPortType) DutchBusinessUpdateGetChangedDossiers(request *DutchBusinessUpdateGetChangedDossiersRequestType) (*DutchBusinessUpdateGetChangedDossiersResponseType, error) {
 	response := new(DutchBusinessUpdateGetChangedDossiersResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessUpdateGetChangedDossiers", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateGetChangedDossiers", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20338,7 +20338,7 @@ func (service *webservicesNLPortType) DutchBusinessUpdateGetChangedDossiers(requ
 
 func (service *webservicesNLPortType) DutchBusinessUpdateAddDossier(request *DutchBusinessUpdateAddDossierRequestType) (*DutchBusinessUpdateAddDossierResponseType, error) {
 	response := new(DutchBusinessUpdateAddDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessUpdateAddDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateAddDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20348,7 +20348,7 @@ func (service *webservicesNLPortType) DutchBusinessUpdateAddDossier(request *Dut
 
 func (service *webservicesNLPortType) DutchBusinessUpdateRemoveDossier(request *DutchBusinessUpdateRemoveDossierRequestType) (*DutchBusinessUpdateRemoveDossierResponseType, error) {
 	response := new(DutchBusinessUpdateRemoveDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessUpdateRemoveDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateRemoveDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20358,7 +20358,7 @@ func (service *webservicesNLPortType) DutchBusinessUpdateRemoveDossier(request *
 
 func (service *webservicesNLPortType) DutchBusinessUpdateGetOverview(request *DutchBusinessUpdateGetOverviewRequestType) (*DutchBusinessUpdateGetOverviewResponseType, error) {
 	response := new(DutchBusinessUpdateGetOverviewResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessUpdateGetOverview", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUpdateGetOverview", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20368,7 +20368,7 @@ func (service *webservicesNLPortType) DutchBusinessUpdateGetOverview(request *Du
 
 func (service *webservicesNLPortType) DutchBusinessSearchNewsByDossier(request *DutchBusinessSearchNewsByDossierRequestType) (*DutchBusinessSearchNewsByDossierResponseType, error) {
 	response := new(DutchBusinessSearchNewsByDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessSearchNewsByDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchNewsByDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20378,7 +20378,7 @@ func (service *webservicesNLPortType) DutchBusinessSearchNewsByDossier(request *
 
 func (service *webservicesNLPortType) DutchBusinessUBOStartInvestigation(request *DutchBusinessUBOStartInvestigationRequestType) (*DutchBusinessUBOStartInvestigationResponseType, error) {
 	response := new(DutchBusinessUBOStartInvestigationResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessUBOStartInvestigation", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUBOStartInvestigation", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20388,7 +20388,7 @@ func (service *webservicesNLPortType) DutchBusinessUBOStartInvestigation(request
 
 func (service *webservicesNLPortType) DutchBusinessUBOCheckInvestigation(request *DutchBusinessUBOCheckInvestigationRequestType) (*DutchBusinessUBOCheckInvestigationResponseType, error) {
 	response := new(DutchBusinessUBOCheckInvestigationResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessUBOCheckInvestigation", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUBOCheckInvestigation", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20398,7 +20398,7 @@ func (service *webservicesNLPortType) DutchBusinessUBOCheckInvestigation(request
 
 func (service *webservicesNLPortType) DutchBusinessUBOPickupInvestigation(request *DutchBusinessUBOPickupInvestigationRequestType) (*DutchBusinessUBOPickupInvestigationResponseType, error) {
 	response := new(DutchBusinessUBOPickupInvestigationResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessUBOPickupInvestigation", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUBOPickupInvestigation", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20408,7 +20408,7 @@ func (service *webservicesNLPortType) DutchBusinessUBOPickupInvestigation(reques
 
 func (service *webservicesNLPortType) DutchBusinessUBOCostsInvestigation(request *DutchBusinessUBOCostsInvestigationRequestType) (*DutchBusinessUBOCostsInvestigationResponseType, error) {
 	response := new(DutchBusinessUBOCostsInvestigationResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessUBOCostsInvestigation", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUBOCostsInvestigation", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20418,7 +20418,7 @@ func (service *webservicesNLPortType) DutchBusinessUBOCostsInvestigation(request
 
 func (service *webservicesNLPortType) DutchBusinessUBOClassifyInvestigation(request *DutchBusinessUBOClassifyInvestigationRequestType) (*DutchBusinessUBOClassifyInvestigationResponseType, error) {
 	response := new(DutchBusinessUBOClassifyInvestigationResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessUBOClassifyInvestigation", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessUBOClassifyInvestigation", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20428,7 +20428,7 @@ func (service *webservicesNLPortType) DutchBusinessUBOClassifyInvestigation(requ
 
 func (service *webservicesNLPortType) DutchBusinessGetLei(request *DutchBusinessGetLeiRequestType) (*DutchBusinessGetLeiResponseType, error) {
 	response := new(DutchBusinessGetLeiResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessGetLei", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessGetLei", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20438,7 +20438,7 @@ func (service *webservicesNLPortType) DutchBusinessGetLei(request *DutchBusiness
 
 func (service *webservicesNLPortType) DutchBusinessSearchParameters(request *DutchBusinessSearchParametersRequestType) (*DutchBusinessSearchParametersResponseType, error) {
 	response := new(DutchBusinessSearchParametersResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchBusinessSearchParameters", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchBusinessSearchParameters", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20448,7 +20448,7 @@ func (service *webservicesNLPortType) DutchBusinessSearchParameters(request *Dut
 
 func (service *webservicesNLPortType) DutchVehicleGetVehicleV2(request *DutchVehicleGetVehicleV2RequestType) (*DutchVehicleGetVehicleV2ResponseType, error) {
 	response := new(DutchVehicleGetVehicleV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchVehicleGetVehicleV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchVehicleGetVehicleV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20458,7 +20458,7 @@ func (service *webservicesNLPortType) DutchVehicleGetVehicleV2(request *DutchVeh
 
 func (service *webservicesNLPortType) DutchVehicleGetPurchaseReference(request *DutchVehicleGetPurchaseReferenceRequestType) (*DutchVehicleGetPurchaseReferenceResponseType, error) {
 	response := new(DutchVehicleGetPurchaseReferenceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchVehicleGetPurchaseReference", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchVehicleGetPurchaseReference", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20468,7 +20468,7 @@ func (service *webservicesNLPortType) DutchVehicleGetPurchaseReference(request *
 
 func (service *webservicesNLPortType) DutchVehicleGetOwnerHistory(request *DutchVehicleGetOwnerHistoryRequestType) (*DutchVehicleGetOwnerHistoryResponseType, error) {
 	response := new(DutchVehicleGetOwnerHistoryResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchVehicleGetOwnerHistory", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchVehicleGetOwnerHistory", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20478,7 +20478,7 @@ func (service *webservicesNLPortType) DutchVehicleGetOwnerHistory(request *Dutch
 
 func (service *webservicesNLPortType) DutchVehicleGetMarketValue(request *DutchVehicleGetMarketValueRequestType) (*DutchVehicleGetMarketValueResponseType, error) {
 	response := new(DutchVehicleGetMarketValueResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchVehicleGetMarketValue", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchVehicleGetMarketValue", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20488,7 +20488,7 @@ func (service *webservicesNLPortType) DutchVehicleGetMarketValue(request *DutchV
 
 func (service *webservicesNLPortType) DutchVehicleGetVehicle(request *DutchVehicleGetVehicleRequestType) (*DutchVehicleGetVehicleResponseType, error) {
 	response := new(DutchVehicleGetVehicleResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/dutchVehicleGetVehicle", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/dutchVehicleGetVehicle", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20498,7 +20498,7 @@ func (service *webservicesNLPortType) DutchVehicleGetVehicle(request *DutchVehic
 
 func (service *webservicesNLPortType) EdrGetScore(request *EdrGetScoreRequestType) (*EdrGetScoreResponseType, error) {
 	response := new(EdrGetScoreResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/edrGetScore", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/edrGetScore", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20508,7 +20508,7 @@ func (service *webservicesNLPortType) EdrGetScore(request *EdrGetScoreRequestTyp
 
 func (service *webservicesNLPortType) GeoLocationNeighborhoodCoordinatesRD(request *GeoLocationNeighborhoodCoordinatesRDRequestType) (*GeoLocationNeighborhoodCoordinatesRDResponseType, error) {
 	response := new(GeoLocationNeighborhoodCoordinatesRDResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationNeighborhoodCoordinatesRD", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationNeighborhoodCoordinatesRD", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20518,7 +20518,7 @@ func (service *webservicesNLPortType) GeoLocationNeighborhoodCoordinatesRD(reque
 
 func (service *webservicesNLPortType) GeoLocationPostcodeCoordinatesRD(request *GeoLocationPostcodeCoordinatesRDRequestType) (*GeoLocationPostcodeCoordinatesRDResponseType, error) {
 	response := new(GeoLocationPostcodeCoordinatesRDResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationPostcodeCoordinatesRD", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationPostcodeCoordinatesRD", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20528,7 +20528,7 @@ func (service *webservicesNLPortType) GeoLocationPostcodeCoordinatesRD(request *
 
 func (service *webservicesNLPortType) GeoLocationNeighborhoodCoordinatesLatLon(request *GeoLocationNeighborhoodCoordinatesLatLonRequestType) (*GeoLocationNeighborhoodCoordinatesLatLonResponseType, error) {
 	response := new(GeoLocationNeighborhoodCoordinatesLatLonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationNeighborhoodCoordinatesLatLon", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationNeighborhoodCoordinatesLatLon", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20538,7 +20538,7 @@ func (service *webservicesNLPortType) GeoLocationNeighborhoodCoordinatesLatLon(r
 
 func (service *webservicesNLPortType) GeoLocationPostcodeCoordinatesLatLon(request *GeoLocationPostcodeCoordinatesLatLonRequestType) (*GeoLocationPostcodeCoordinatesLatLonResponseType, error) {
 	response := new(GeoLocationPostcodeCoordinatesLatLonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationPostcodeCoordinatesLatLon", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationPostcodeCoordinatesLatLon", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20548,7 +20548,7 @@ func (service *webservicesNLPortType) GeoLocationPostcodeCoordinatesLatLon(reque
 
 func (service *webservicesNLPortType) GeoLocationAddressCoordinatesLatLon(request *GeoLocationAddressCoordinatesLatLonRequestType) (*GeoLocationAddressCoordinatesLatLonResponseType, error) {
 	response := new(GeoLocationAddressCoordinatesLatLonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationAddressCoordinatesLatLon", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationAddressCoordinatesLatLon", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20558,7 +20558,7 @@ func (service *webservicesNLPortType) GeoLocationAddressCoordinatesLatLon(reques
 
 func (service *webservicesNLPortType) GeoLocationAddressCoordinatesRD(request *GeoLocationAddressCoordinatesRDRequestType) (*GeoLocationAddressCoordinatesRDResponseType, error) {
 	response := new(GeoLocationAddressCoordinatesRDResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationAddressCoordinatesRD", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationAddressCoordinatesRD", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20568,7 +20568,7 @@ func (service *webservicesNLPortType) GeoLocationAddressCoordinatesRD(request *G
 
 func (service *webservicesNLPortType) GeoLocationLatLonToPostcode(request *GeoLocationLatLonToPostcodeRequestType) (*GeoLocationLatLonToPostcodeResponseType, error) {
 	response := new(GeoLocationLatLonToPostcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationLatLonToPostcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationLatLonToPostcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20578,7 +20578,7 @@ func (service *webservicesNLPortType) GeoLocationLatLonToPostcode(request *GeoLo
 
 func (service *webservicesNLPortType) GeoLocationLatLonToAddressV2(request *GeoLocationLatLonToAddressV2RequestType) (*GeoLocationLatLonToAddressV2ResponseType, error) {
 	response := new(GeoLocationLatLonToAddressV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationLatLonToAddressV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationLatLonToAddressV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20588,7 +20588,7 @@ func (service *webservicesNLPortType) GeoLocationLatLonToAddressV2(request *GeoL
 
 func (service *webservicesNLPortType) GeoLocationRDToPostcode(request *GeoLocationRDToPostcodeRequestType) (*GeoLocationRDToPostcodeResponseType, error) {
 	response := new(GeoLocationRDToPostcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationRDToPostcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationRDToPostcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20598,7 +20598,7 @@ func (service *webservicesNLPortType) GeoLocationRDToPostcode(request *GeoLocati
 
 func (service *webservicesNLPortType) GeoLocationRDToAddressV2(request *GeoLocationRDToAddressV2RequestType) (*GeoLocationRDToAddressV2ResponseType, error) {
 	response := new(GeoLocationRDToAddressV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationRDToAddressV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationRDToAddressV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20608,7 +20608,7 @@ func (service *webservicesNLPortType) GeoLocationRDToAddressV2(request *GeoLocat
 
 func (service *webservicesNLPortType) GeoLocationInternationalPostcodeCoordinatesLatLon(request *GeoLocationInternationalPostcodeCoordinatesLatLonRequestType) (*GeoLocationInternationalPostcodeCoordinatesLatLonResponseType, error) {
 	response := new(GeoLocationInternationalPostcodeCoordinatesLatLonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationInternationalPostcodeCoordinatesLatLon", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationInternationalPostcodeCoordinatesLatLon", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20618,7 +20618,7 @@ func (service *webservicesNLPortType) GeoLocationInternationalPostcodeCoordinate
 
 func (service *webservicesNLPortType) GeoLocationInternationalAddressCoordinatesLatLon(request *GeoLocationInternationalAddressCoordinatesLatLonRequestType) (*GeoLocationInternationalAddressCoordinatesLatLonResponseType, error) {
 	response := new(GeoLocationInternationalAddressCoordinatesLatLonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationInternationalAddressCoordinatesLatLon", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationInternationalAddressCoordinatesLatLon", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20628,7 +20628,7 @@ func (service *webservicesNLPortType) GeoLocationInternationalAddressCoordinates
 
 func (service *webservicesNLPortType) GeoLocationInternationalAddressCoordinatesLatLonV2(request *GeoLocationInternationalAddressCoordinatesLatLonV2RequestType) (*GeoLocationInternationalAddressCoordinatesLatLonV2ResponseType, error) {
 	response := new(GeoLocationInternationalAddressCoordinatesLatLonV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationInternationalAddressCoordinatesLatLonV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationInternationalAddressCoordinatesLatLonV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20638,7 +20638,7 @@ func (service *webservicesNLPortType) GeoLocationInternationalAddressCoordinates
 
 func (service *webservicesNLPortType) GeoLocationInternationalLatLonToAddress(request *GeoLocationInternationalLatLonToAddressRequestType) (*GeoLocationInternationalLatLonToAddressResponseType, error) {
 	response := new(GeoLocationInternationalLatLonToAddressResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationInternationalLatLonToAddress", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationInternationalLatLonToAddress", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20648,7 +20648,7 @@ func (service *webservicesNLPortType) GeoLocationInternationalLatLonToAddress(re
 
 func (service *webservicesNLPortType) GeoLocationNeighborhoodDistance(request *GeoLocationNeighborhoodDistanceRequestType) (*GeoLocationNeighborhoodDistanceResponseType, error) {
 	response := new(GeoLocationNeighborhoodDistanceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationNeighborhoodDistance", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationNeighborhoodDistance", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20658,7 +20658,7 @@ func (service *webservicesNLPortType) GeoLocationNeighborhoodDistance(request *G
 
 func (service *webservicesNLPortType) GeoLocationPostcodeDistance(request *GeoLocationPostcodeDistanceRequestType) (*GeoLocationPostcodeDistanceResponseType, error) {
 	response := new(GeoLocationPostcodeDistanceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationPostcodeDistance", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationPostcodeDistance", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20668,7 +20668,7 @@ func (service *webservicesNLPortType) GeoLocationPostcodeDistance(request *GeoLo
 
 func (service *webservicesNLPortType) GeoLocationHaversineDistance(request *GeoLocationHaversineDistanceRequestType) (*GeoLocationHaversineDistanceResponseType, error) {
 	response := new(GeoLocationHaversineDistanceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationHaversineDistance", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationHaversineDistance", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20678,7 +20678,7 @@ func (service *webservicesNLPortType) GeoLocationHaversineDistance(request *GeoL
 
 func (service *webservicesNLPortType) GeoLocationDistanceSortedNeighborhoodCodes(request *GeoLocationDistanceSortedNeighborhoodCodesRequestType) (*GeoLocationDistanceSortedNeighborhoodCodesResponseType, error) {
 	response := new(GeoLocationDistanceSortedNeighborhoodCodesResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationDistanceSortedNeighborhoodCodes", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationDistanceSortedNeighborhoodCodes", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20688,7 +20688,7 @@ func (service *webservicesNLPortType) GeoLocationDistanceSortedNeighborhoodCodes
 
 func (service *webservicesNLPortType) GeoLocationDistanceSortedNeighborhoodCodesRadius(request *GeoLocationDistanceSortedNeighborhoodCodesRadiusRequestType) (*GeoLocationDistanceSortedNeighborhoodCodesRadiusResponseType, error) {
 	response := new(GeoLocationDistanceSortedNeighborhoodCodesRadiusResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationDistanceSortedNeighborhoodCodesRadius", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationDistanceSortedNeighborhoodCodesRadius", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20698,7 +20698,7 @@ func (service *webservicesNLPortType) GeoLocationDistanceSortedNeighborhoodCodes
 
 func (service *webservicesNLPortType) GeoLocationDistanceSortedPostcodesRadius(request *GeoLocationDistanceSortedPostcodesRadiusRequestType) (*GeoLocationDistanceSortedPostcodesRadiusResponseType, error) {
 	response := new(GeoLocationDistanceSortedPostcodesRadiusResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationDistanceSortedPostcodesRadius", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationDistanceSortedPostcodesRadius", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20708,7 +20708,7 @@ func (service *webservicesNLPortType) GeoLocationDistanceSortedPostcodesRadius(r
 
 func (service *webservicesNLPortType) GeoLocationDistanceSortedPostcodes(request *GeoLocationDistanceSortedPostcodesRequestType) (*GeoLocationDistanceSortedPostcodesResponseType, error) {
 	response := new(GeoLocationDistanceSortedPostcodesResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationDistanceSortedPostcodes", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationDistanceSortedPostcodes", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20718,7 +20718,7 @@ func (service *webservicesNLPortType) GeoLocationDistanceSortedPostcodes(request
 
 func (service *webservicesNLPortType) GeoLocationLatLonToRD(request *GeoLocationLatLonToRDRequestType) (*GeoLocationLatLonToRDResponseType, error) {
 	response := new(GeoLocationLatLonToRDResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationLatLonToRD", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationLatLonToRD", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20728,7 +20728,7 @@ func (service *webservicesNLPortType) GeoLocationLatLonToRD(request *GeoLocation
 
 func (service *webservicesNLPortType) GeoLocationRDToLatLon(request *GeoLocationRDToLatLonRequestType) (*GeoLocationRDToLatLonResponseType, error) {
 	response := new(GeoLocationRDToLatLonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/geoLocationRDToLatLon", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/geoLocationRDToLatLon", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20738,7 +20738,7 @@ func (service *webservicesNLPortType) GeoLocationRDToLatLon(request *GeoLocation
 
 func (service *webservicesNLPortType) GraydonCreditGetReport(request *GraydonCreditGetReportRequestType) (*GraydonCreditGetReportResponseType, error) {
 	response := new(GraydonCreditGetReportResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/graydonCreditGetReport", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/graydonCreditGetReport", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20748,7 +20748,7 @@ func (service *webservicesNLPortType) GraydonCreditGetReport(request *GraydonCre
 
 func (service *webservicesNLPortType) GraydonCreditSearchIdentification(request *GraydonCreditSearchIdentificationRequestType) (*GraydonCreditSearchIdentificationResponseType, error) {
 	response := new(GraydonCreditSearchIdentificationResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/graydonCreditSearchIdentification", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/graydonCreditSearchIdentification", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20758,7 +20758,7 @@ func (service *webservicesNLPortType) GraydonCreditSearchIdentification(request 
 
 func (service *webservicesNLPortType) GraydonCreditSearchName(request *GraydonCreditSearchNameRequestType) (*GraydonCreditSearchNameResponseType, error) {
 	response := new(GraydonCreditSearchNameResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/graydonCreditSearchName", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/graydonCreditSearchName", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20768,7 +20768,7 @@ func (service *webservicesNLPortType) GraydonCreditSearchName(request *GraydonCr
 
 func (service *webservicesNLPortType) GraydonCreditSearchPostcode(request *GraydonCreditSearchPostcodeRequestType) (*GraydonCreditSearchPostcodeResponseType, error) {
 	response := new(GraydonCreditSearchPostcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/graydonCreditSearchPostcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/graydonCreditSearchPostcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20778,7 +20778,7 @@ func (service *webservicesNLPortType) GraydonCreditSearchPostcode(request *Grayd
 
 func (service *webservicesNLPortType) GraydonCreditQuickscan(request *GraydonCreditQuickscanRequestType) (*GraydonCreditQuickscanResponseType, error) {
 	response := new(GraydonCreditQuickscanResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/graydonCreditQuickscan", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/graydonCreditQuickscan", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20788,7 +20788,7 @@ func (service *webservicesNLPortType) GraydonCreditQuickscan(request *GraydonCre
 
 func (service *webservicesNLPortType) GraydonCreditRatings(request *GraydonCreditRatingsRequestType) (*GraydonCreditRatingsResponseType, error) {
 	response := new(GraydonCreditRatingsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/graydonCreditRatings", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/graydonCreditRatings", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20798,7 +20798,7 @@ func (service *webservicesNLPortType) GraydonCreditRatings(request *GraydonCredi
 
 func (service *webservicesNLPortType) GraydonCreditVatNumber(request *GraydonCreditVatNumberRequestType) (*GraydonCreditVatNumberResponseType, error) {
 	response := new(GraydonCreditVatNumberResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/graydonCreditVatNumber", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/graydonCreditVatNumber", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20808,7 +20808,7 @@ func (service *webservicesNLPortType) GraydonCreditVatNumber(request *GraydonCre
 
 func (service *webservicesNLPortType) GraydonCreditCompanyLiaisons(request *GraydonCreditCompanyLiaisonsRequestType) (*GraydonCreditCompanyLiaisonsResponseType, error) {
 	response := new(GraydonCreditCompanyLiaisonsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/graydonCreditCompanyLiaisons", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/graydonCreditCompanyLiaisons", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20818,7 +20818,7 @@ func (service *webservicesNLPortType) GraydonCreditCompanyLiaisons(request *Gray
 
 func (service *webservicesNLPortType) GraydonCreditManagement(request *GraydonCreditManagementRequestType) (*GraydonCreditManagementResponseType, error) {
 	response := new(GraydonCreditManagementResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/graydonCreditManagement", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/graydonCreditManagement", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20828,7 +20828,7 @@ func (service *webservicesNLPortType) GraydonCreditManagement(request *GraydonCr
 
 func (service *webservicesNLPortType) InsolvencyGetCaseByPublication(request *InsolvencyGetCaseByPublicationRequestType) (*InsolvencyGetCaseByPublicationResponseType, error) {
 	response := new(InsolvencyGetCaseByPublicationResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/insolvencyGetCaseByPublication", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/insolvencyGetCaseByPublication", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20838,7 +20838,7 @@ func (service *webservicesNLPortType) InsolvencyGetCaseByPublication(request *In
 
 func (service *webservicesNLPortType) InsolvencySearchPublicationsByCoCNumber(request *InsolvencySearchPublicationsByCoCNumberRequestType) (*InsolvencySearchPublicationsByCoCNumberResponseType, error) {
 	response := new(InsolvencySearchPublicationsByCoCNumberResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/insolvencySearchPublicationsByCoCNumber", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/insolvencySearchPublicationsByCoCNumber", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20848,7 +20848,7 @@ func (service *webservicesNLPortType) InsolvencySearchPublicationsByCoCNumber(re
 
 func (service *webservicesNLPortType) InsolvencySearchPublicationsByPerson(request *InsolvencySearchPublicationsByPersonRequestType) (*InsolvencySearchPublicationsByPersonResponseType, error) {
 	response := new(InsolvencySearchPublicationsByPersonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/insolvencySearchPublicationsByPerson", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/insolvencySearchPublicationsByPerson", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20858,7 +20858,7 @@ func (service *webservicesNLPortType) InsolvencySearchPublicationsByPerson(reque
 
 func (service *webservicesNLPortType) InternationalAddressSearchV2(request *InternationalAddressSearchV2RequestType) (*InternationalAddressSearchV2ResponseType, error) {
 	response := new(InternationalAddressSearchV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/internationalAddressSearchV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/internationalAddressSearchV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20868,7 +20868,7 @@ func (service *webservicesNLPortType) InternationalAddressSearchV2(request *Inte
 
 func (service *webservicesNLPortType) InternationalAddressSearchInteractive(request *InternationalAddressSearchInteractiveRequestType) (*InternationalAddressSearchInteractiveResponseType, error) {
 	response := new(InternationalAddressSearchInteractiveResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/internationalAddressSearchInteractive", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/internationalAddressSearchInteractive", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20878,7 +20878,7 @@ func (service *webservicesNLPortType) InternationalAddressSearchInteractive(requ
 
 func (service *webservicesNLPortType) KadasterEigendomsBerichtDocumentPerceel(request *KadasterEigendomsBerichtDocumentPerceelRequestType) (*KadasterEigendomsBerichtDocumentPerceelResponseType, error) {
 	response := new(KadasterEigendomsBerichtDocumentPerceelResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtDocumentPerceel", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtDocumentPerceel", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20888,7 +20888,7 @@ func (service *webservicesNLPortType) KadasterEigendomsBerichtDocumentPerceel(re
 
 func (service *webservicesNLPortType) KadasterEigendomsBerichtDocumentPostcode(request *KadasterEigendomsBerichtDocumentPostcodeRequestType) (*KadasterEigendomsBerichtDocumentPostcodeResponseType, error) {
 	response := new(KadasterEigendomsBerichtDocumentPostcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtDocumentPostcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtDocumentPostcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20898,7 +20898,7 @@ func (service *webservicesNLPortType) KadasterEigendomsBerichtDocumentPostcode(r
 
 func (service *webservicesNLPortType) KadasterEigendomsBerichtPerceelV2(request *KadasterEigendomsBerichtPerceelV2RequestType) (*KadasterEigendomsBerichtPerceelV2ResponseType, error) {
 	response := new(KadasterEigendomsBerichtPerceelV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPerceelV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPerceelV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20908,7 +20908,7 @@ func (service *webservicesNLPortType) KadasterEigendomsBerichtPerceelV2(request 
 
 func (service *webservicesNLPortType) KadasterEigendomsBerichtPostcodeV2(request *KadasterEigendomsBerichtPostcodeV2RequestType) (*KadasterEigendomsBerichtPostcodeV2ResponseType, error) {
 	response := new(KadasterEigendomsBerichtPostcodeV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPostcodeV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPostcodeV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20918,7 +20918,7 @@ func (service *webservicesNLPortType) KadasterEigendomsBerichtPostcodeV2(request
 
 func (service *webservicesNLPortType) KadasterKoopsommenOverzichtV2(request *KadasterKoopsommenOverzichtV2RequestType) (*KadasterKoopsommenOverzichtV2ResponseType, error) {
 	response := new(KadasterKoopsommenOverzichtV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterKoopsommenOverzichtV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterKoopsommenOverzichtV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20928,7 +20928,7 @@ func (service *webservicesNLPortType) KadasterKoopsommenOverzichtV2(request *Kad
 
 func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPerceelV3(request *KadasterUittrekselKadastraleKaartPerceelV3RequestType) (*KadasterUittrekselKadastraleKaartPerceelV3ResponseType, error) {
 	response := new(KadasterUittrekselKadastraleKaartPerceelV3ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPerceelV3", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPerceelV3", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20938,7 +20938,7 @@ func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPerceelV3
 
 func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPostcodeV3(request *KadasterUittrekselKadastraleKaartPostcodeV3RequestType) (*KadasterUittrekselKadastraleKaartPostcodeV3ResponseType, error) {
 	response := new(KadasterUittrekselKadastraleKaartPostcodeV3ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPostcodeV3", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPostcodeV3", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20948,7 +20948,7 @@ func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPostcodeV
 
 func (service *webservicesNLPortType) KadasterHypothecairBerichtPostcodeV3(request *KadasterHypothecairBerichtPostcodeV3RequestType) (*KadasterHypothecairBerichtPostcodeV3ResponseType, error) {
 	response := new(KadasterHypothecairBerichtPostcodeV3ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPostcodeV3", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPostcodeV3", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20958,7 +20958,7 @@ func (service *webservicesNLPortType) KadasterHypothecairBerichtPostcodeV3(reque
 
 func (service *webservicesNLPortType) KadasterHypothecairBerichtPerceelV3(request *KadasterHypothecairBerichtPerceelV3RequestType) (*KadasterHypothecairBerichtPerceelV3ResponseType, error) {
 	response := new(KadasterHypothecairBerichtPerceelV3ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPerceelV3", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPerceelV3", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20968,7 +20968,7 @@ func (service *webservicesNLPortType) KadasterHypothecairBerichtPerceelV3(reques
 
 func (service *webservicesNLPortType) KadasterBronDocument(request *KadasterBronDocumentRequestType) (*KadasterBronDocumentResponseType, error) {
 	response := new(KadasterBronDocumentResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterBronDocument", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterBronDocument", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20978,7 +20978,7 @@ func (service *webservicesNLPortType) KadasterBronDocument(request *KadasterBron
 
 func (service *webservicesNLPortType) KadasterValueListGetRanges(request *KadasterValueListGetRangesRequestType) (*KadasterValueListGetRangesResponseType, error) {
 	response := new(KadasterValueListGetRangesResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterValueListGetRanges", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterValueListGetRanges", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20988,7 +20988,7 @@ func (service *webservicesNLPortType) KadasterValueListGetRanges(request *Kadast
 
 func (service *webservicesNLPortType) KadasterValueListGetMunicipalities(request *KadasterValueListGetMunicipalitiesRequestType) (*KadasterValueListGetMunicipalitiesResponseType, error) {
 	response := new(KadasterValueListGetMunicipalitiesResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterValueListGetMunicipalities", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterValueListGetMunicipalities", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -20998,7 +20998,7 @@ func (service *webservicesNLPortType) KadasterValueListGetMunicipalities(request
 
 func (service *webservicesNLPortType) KadasterAddressCoordinates(request *KadasterAddressCoordinatesRequestType) (*KadasterAddressCoordinatesResponseType, error) {
 	response := new(KadasterAddressCoordinatesResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterAddressCoordinates", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterAddressCoordinates", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21008,7 +21008,7 @@ func (service *webservicesNLPortType) KadasterAddressCoordinates(request *Kadast
 
 func (service *webservicesNLPortType) KadasterKadastraleKaartPerceelV2(request *KadasterKadastraleKaartPerceelV2RequestType) (*KadasterKadastraleKaartPerceelV2ResponseType, error) {
 	response := new(KadasterKadastraleKaartPerceelV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPerceelV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPerceelV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21018,7 +21018,7 @@ func (service *webservicesNLPortType) KadasterKadastraleKaartPerceelV2(request *
 
 func (service *webservicesNLPortType) KadasterKadastraleKaartPostcodeV2(request *KadasterKadastraleKaartPostcodeV2RequestType) (*KadasterKadastraleKaartPostcodeV2ResponseType, error) {
 	response := new(KadasterKadastraleKaartPostcodeV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPostcodeV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPostcodeV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21028,7 +21028,7 @@ func (service *webservicesNLPortType) KadasterKadastraleKaartPostcodeV2(request 
 
 func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPerceel(request *KadasterUittrekselKadastraleKaartPerceelRequestType) (*KadasterUittrekselKadastraleKaartPerceelResponseType, error) {
 	response := new(KadasterUittrekselKadastraleKaartPerceelResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPerceel", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPerceel", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21038,7 +21038,7 @@ func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPerceel(r
 
 func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPostcode(request *KadasterUittrekselKadastraleKaartPostcodeRequestType) (*KadasterUittrekselKadastraleKaartPostcodeResponseType, error) {
 	response := new(KadasterUittrekselKadastraleKaartPostcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPostcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPostcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21048,7 +21048,7 @@ func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPostcode(
 
 func (service *webservicesNLPortType) KadasterHypothecairBerichtPostcode(request *KadasterHypothecairBerichtPostcodeRequestType) (*KadasterHypothecairBerichtPostcodeResponseType, error) {
 	response := new(KadasterHypothecairBerichtPostcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPostcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPostcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21058,7 +21058,7 @@ func (service *webservicesNLPortType) KadasterHypothecairBerichtPostcode(request
 
 func (service *webservicesNLPortType) KadasterHypothecairBerichtPerceel(request *KadasterHypothecairBerichtPerceelRequestType) (*KadasterHypothecairBerichtPerceelResponseType, error) {
 	response := new(KadasterHypothecairBerichtPerceelResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPerceel", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPerceel", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21068,7 +21068,7 @@ func (service *webservicesNLPortType) KadasterHypothecairBerichtPerceel(request 
 
 func (service *webservicesNLPortType) KadasterEigendomsBerichtPerceel(request *KadasterEigendomsBerichtPerceelRequestType) (*KadasterEigendomsBerichtPerceelResponseType, error) {
 	response := new(KadasterEigendomsBerichtPerceelResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPerceel", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPerceel", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21078,7 +21078,7 @@ func (service *webservicesNLPortType) KadasterEigendomsBerichtPerceel(request *K
 
 func (service *webservicesNLPortType) KadasterEigendomsBerichtPostcode(request *KadasterEigendomsBerichtPostcodeRequestType) (*KadasterEigendomsBerichtPostcodeResponseType, error) {
 	response := new(KadasterEigendomsBerichtPostcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPostcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterEigendomsBerichtPostcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21088,7 +21088,7 @@ func (service *webservicesNLPortType) KadasterEigendomsBerichtPostcode(request *
 
 func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPerceelV2(request *KadasterUittrekselKadastraleKaartPerceelV2RequestType) (*KadasterUittrekselKadastraleKaartPerceelV2ResponseType, error) {
 	response := new(KadasterUittrekselKadastraleKaartPerceelV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPerceelV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPerceelV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21098,7 +21098,7 @@ func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPerceelV2
 
 func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPostcodeV2(request *KadasterUittrekselKadastraleKaartPostcodeV2RequestType) (*KadasterUittrekselKadastraleKaartPostcodeV2ResponseType, error) {
 	response := new(KadasterUittrekselKadastraleKaartPostcodeV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPostcodeV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterUittrekselKadastraleKaartPostcodeV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21108,7 +21108,7 @@ func (service *webservicesNLPortType) KadasterUittrekselKadastraleKaartPostcodeV
 
 func (service *webservicesNLPortType) KadasterKadastraleKaartPerceel(request *KadasterKadastraleKaartPerceelRequestType) (*KadasterKadastraleKaartPerceelResponseType, error) {
 	response := new(KadasterKadastraleKaartPerceelResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPerceel", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPerceel", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21118,7 +21118,7 @@ func (service *webservicesNLPortType) KadasterKadastraleKaartPerceel(request *Ka
 
 func (service *webservicesNLPortType) KadasterKadastraleKaartPostcode(request *KadasterKadastraleKaartPostcodeRequestType) (*KadasterKadastraleKaartPostcodeResponseType, error) {
 	response := new(KadasterKadastraleKaartPostcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPostcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterKadastraleKaartPostcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21128,7 +21128,7 @@ func (service *webservicesNLPortType) KadasterKadastraleKaartPostcode(request *K
 
 func (service *webservicesNLPortType) KadasterHypothecairBerichtPostcodeV2(request *KadasterHypothecairBerichtPostcodeV2RequestType) (*KadasterHypothecairBerichtPostcodeV2ResponseType, error) {
 	response := new(KadasterHypothecairBerichtPostcodeV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPostcodeV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPostcodeV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21138,7 +21138,7 @@ func (service *webservicesNLPortType) KadasterHypothecairBerichtPostcodeV2(reque
 
 func (service *webservicesNLPortType) KadasterHypothecairBerichtPerceelV2(request *KadasterHypothecairBerichtPerceelV2RequestType) (*KadasterHypothecairBerichtPerceelV2ResponseType, error) {
 	response := new(KadasterHypothecairBerichtPerceelV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPerceelV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterHypothecairBerichtPerceelV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21148,7 +21148,7 @@ func (service *webservicesNLPortType) KadasterHypothecairBerichtPerceelV2(reques
 
 func (service *webservicesNLPortType) KadasterKoopsommenOverzicht(request *KadasterKoopsommenOverzichtRequestType) (*KadasterKoopsommenOverzichtResponseType, error) {
 	response := new(KadasterKoopsommenOverzichtResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterKoopsommenOverzicht", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterKoopsommenOverzicht", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21158,7 +21158,7 @@ func (service *webservicesNLPortType) KadasterKoopsommenOverzicht(request *Kadas
 
 func (service *webservicesNLPortType) KadasterV2GetKadastraalBerichtObjectByAdres(request *KadasterV2GetKadastraalBerichtObjectByAdresRequestType) (*KadasterV2GetKadastraalBerichtObjectByAdresResponseType, error) {
 	response := new(KadasterV2GetKadastraalBerichtObjectByAdresResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterV2GetKadastraalBerichtObjectByAdres", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterV2GetKadastraalBerichtObjectByAdres", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21168,7 +21168,7 @@ func (service *webservicesNLPortType) KadasterV2GetKadastraalBerichtObjectByAdre
 
 func (service *webservicesNLPortType) KadasterV2GetKadastraalBerichtObjectByKadastraleAanduiding(request *KadasterV2GetKadastraalBerichtObjectByKadastraleAanduidingRequestType) (*KadasterV2GetKadastraalBerichtObjectByKadastraleAanduidingResponseType, error) {
 	response := new(KadasterV2GetKadastraalBerichtObjectByKadastraleAanduidingResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterV2GetKadastraalBerichtObjectByKadastraleAanduiding", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterV2GetKadastraalBerichtObjectByKadastraleAanduiding", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21178,7 +21178,7 @@ func (service *webservicesNLPortType) KadasterV2GetKadastraalBerichtObjectByKada
 
 func (service *webservicesNLPortType) KadasterV2GetKadastraalBerichtObjectByObjectId(request *KadasterV2GetKadastraalBerichtObjectByObjectIdRequestType) (*KadasterV2GetKadastraalBerichtObjectByObjectIdResponseType, error) {
 	response := new(KadasterV2GetKadastraalBerichtObjectByObjectIdResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterV2GetKadastraalBerichtObjectByObjectId", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterV2GetKadastraalBerichtObjectByObjectId", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21188,7 +21188,7 @@ func (service *webservicesNLPortType) KadasterV2GetKadastraalBerichtObjectByObje
 
 func (service *webservicesNLPortType) KadasterV2GetHypothecairBerichtObjectByAdres(request *KadasterV2GetHypothecairBerichtObjectByAdresRequestType) (*KadasterV2GetHypothecairBerichtObjectByAdresResponseType, error) {
 	response := new(KadasterV2GetHypothecairBerichtObjectByAdresResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterV2GetHypothecairBerichtObjectByAdres", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterV2GetHypothecairBerichtObjectByAdres", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21198,7 +21198,7 @@ func (service *webservicesNLPortType) KadasterV2GetHypothecairBerichtObjectByAdr
 
 func (service *webservicesNLPortType) KadasterV2GetHypothecairBerichtObjectByKadastraleAanduiding(request *KadasterV2GetHypothecairBerichtObjectByKadastraleAanduidingRequestType) (*KadasterV2GetHypothecairBerichtObjectByKadastraleAanduidingResponseType, error) {
 	response := new(KadasterV2GetHypothecairBerichtObjectByKadastraleAanduidingResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterV2GetHypothecairBerichtObjectByKadastraleAanduiding", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterV2GetHypothecairBerichtObjectByKadastraleAanduiding", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21208,7 +21208,7 @@ func (service *webservicesNLPortType) KadasterV2GetHypothecairBerichtObjectByKad
 
 func (service *webservicesNLPortType) KadasterV2GetHypothecairBerichtObjectByObjectId(request *KadasterV2GetHypothecairBerichtObjectByObjectIdRequestType) (*KadasterV2GetHypothecairBerichtObjectByObjectIdResponseType, error) {
 	response := new(KadasterV2GetHypothecairBerichtObjectByObjectIdResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterV2GetHypothecairBerichtObjectByObjectId", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterV2GetHypothecairBerichtObjectByObjectId", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21218,7 +21218,7 @@ func (service *webservicesNLPortType) KadasterV2GetHypothecairBerichtObjectByObj
 
 func (service *webservicesNLPortType) KadasterV2GetUittrekselKadastraleKaartByAdres(request *KadasterV2GetUittrekselKadastraleKaartByAdresRequestType) (*KadasterV2GetUittrekselKadastraleKaartByAdresResponseType, error) {
 	response := new(KadasterV2GetUittrekselKadastraleKaartByAdresResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterV2GetUittrekselKadastraleKaartByAdres", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterV2GetUittrekselKadastraleKaartByAdres", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21228,7 +21228,7 @@ func (service *webservicesNLPortType) KadasterV2GetUittrekselKadastraleKaartByAd
 
 func (service *webservicesNLPortType) KadasterV2GetUittrekselKadastraleKaartByKadastraleAanduiding(request *KadasterV2GetUittrekselKadastraleKaartByKadastraleAanduidingRequestType) (*KadasterV2GetUittrekselKadastraleKaartByKadastraleAanduidingResponseType, error) {
 	response := new(KadasterV2GetUittrekselKadastraleKaartByKadastraleAanduidingResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterV2GetUittrekselKadastraleKaartByKadastraleAanduiding", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterV2GetUittrekselKadastraleKaartByKadastraleAanduiding", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21238,7 +21238,7 @@ func (service *webservicesNLPortType) KadasterV2GetUittrekselKadastraleKaartByKa
 
 func (service *webservicesNLPortType) KadasterV2GetUittrekselKadastraleKaartByObjectId(request *KadasterV2GetUittrekselKadastraleKaartByObjectIdRequestType) (*KadasterV2GetUittrekselKadastraleKaartByObjectIdResponseType, error) {
 	response := new(KadasterV2GetUittrekselKadastraleKaartByObjectIdResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterV2GetUittrekselKadastraleKaartByObjectId", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterV2GetUittrekselKadastraleKaartByObjectId", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21248,7 +21248,7 @@ func (service *webservicesNLPortType) KadasterV2GetUittrekselKadastraleKaartByOb
 
 func (service *webservicesNLPortType) KadasterV2GetKoopsommenOverzicht(request *KadasterV2GetKoopsommenOverzichtRequestType) (*KadasterV2GetKoopsommenOverzichtResponseType, error) {
 	response := new(KadasterV2GetKoopsommenOverzichtResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterV2GetKoopsommenOverzicht", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterV2GetKoopsommenOverzicht", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21258,7 +21258,7 @@ func (service *webservicesNLPortType) KadasterV2GetKoopsommenOverzicht(request *
 
 func (service *webservicesNLPortType) KadasterV2GetBronDocument(request *KadasterV2GetBronDocumentRequestType) (*KadasterV2GetBronDocumentResponseType, error) {
 	response := new(KadasterV2GetBronDocumentResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kadasterV2GetBronDocument", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kadasterV2GetBronDocument", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21268,7 +21268,7 @@ func (service *webservicesNLPortType) KadasterV2GetBronDocument(request *Kadaste
 
 func (service *webservicesNLPortType) KvkGetDossier(request *KvkGetDossierRequestType) (*KvkGetDossierResponseType, error) {
 	response := new(KvkGetDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kvkGetDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kvkGetDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21278,7 +21278,7 @@ func (service *webservicesNLPortType) KvkGetDossier(request *KvkGetDossierReques
 
 func (service *webservicesNLPortType) KvkSearchDossierNumber(request *KvkSearchDossierNumberRequestType) (*KvkSearchDossierNumberResponseType, error) {
 	response := new(KvkSearchDossierNumberResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kvkSearchDossierNumber", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kvkSearchDossierNumber", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21288,7 +21288,7 @@ func (service *webservicesNLPortType) KvkSearchDossierNumber(request *KvkSearchD
 
 func (service *webservicesNLPortType) KvkSearchParameters(request *KvkSearchParametersRequestType) (*KvkSearchParametersResponseType, error) {
 	response := new(KvkSearchParametersResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kvkSearchParameters", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kvkSearchParameters", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21298,7 +21298,7 @@ func (service *webservicesNLPortType) KvkSearchParameters(request *KvkSearchPara
 
 func (service *webservicesNLPortType) KvkSearchPostcode(request *KvkSearchPostcodeRequestType) (*KvkSearchPostcodeResponseType, error) {
 	response := new(KvkSearchPostcodeResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kvkSearchPostcode", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kvkSearchPostcode", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21308,7 +21308,7 @@ func (service *webservicesNLPortType) KvkSearchPostcode(request *KvkSearchPostco
 
 func (service *webservicesNLPortType) KvkSearchSelection(request *KvkSearchSelectionRequestType) (*KvkSearchSelectionResponseType, error) {
 	response := new(KvkSearchSelectionResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kvkSearchSelection", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kvkSearchSelection", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21318,7 +21318,7 @@ func (service *webservicesNLPortType) KvkSearchSelection(request *KvkSearchSelec
 
 func (service *webservicesNLPortType) KvkGetExtractDocument(request *KvkGetExtractDocumentRequestType) (*KvkGetExtractDocumentResponseType, error) {
 	response := new(KvkGetExtractDocumentResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kvkGetExtractDocument", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kvkGetExtractDocument", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21328,7 +21328,7 @@ func (service *webservicesNLPortType) KvkGetExtractDocument(request *KvkGetExtra
 
 func (service *webservicesNLPortType) KvkUpdateCheckDossier(request *KvkUpdateCheckDossierRequestType) (*KvkUpdateCheckDossierResponseType, error) {
 	response := new(KvkUpdateCheckDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kvkUpdateCheckDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kvkUpdateCheckDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21338,7 +21338,7 @@ func (service *webservicesNLPortType) KvkUpdateCheckDossier(request *KvkUpdateCh
 
 func (service *webservicesNLPortType) KvkUpdateGetChangedDossiers(request *KvkUpdateGetChangedDossiersRequestType) (*KvkUpdateGetChangedDossiersResponseType, error) {
 	response := new(KvkUpdateGetChangedDossiersResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kvkUpdateGetChangedDossiers", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kvkUpdateGetChangedDossiers", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21348,7 +21348,7 @@ func (service *webservicesNLPortType) KvkUpdateGetChangedDossiers(request *KvkUp
 
 func (service *webservicesNLPortType) KvkUpdateGetDossiers(request *KvkUpdateGetDossiersRequestType) (*KvkUpdateGetDossiersResponseType, error) {
 	response := new(KvkUpdateGetDossiersResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kvkUpdateGetDossiers", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kvkUpdateGetDossiers", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21358,7 +21358,7 @@ func (service *webservicesNLPortType) KvkUpdateGetDossiers(request *KvkUpdateGet
 
 func (service *webservicesNLPortType) KvkUpdateAddDossier(request *KvkUpdateAddDossierRequestType) (*KvkUpdateAddDossierResponseType, error) {
 	response := new(KvkUpdateAddDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kvkUpdateAddDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kvkUpdateAddDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21368,7 +21368,7 @@ func (service *webservicesNLPortType) KvkUpdateAddDossier(request *KvkUpdateAddD
 
 func (service *webservicesNLPortType) KvkUpdateRemoveDossier(request *KvkUpdateRemoveDossierRequestType) (*KvkUpdateRemoveDossierResponseType, error) {
 	response := new(KvkUpdateRemoveDossierResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/kvkUpdateRemoveDossier", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/kvkUpdateRemoveDossier", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21378,7 +21378,7 @@ func (service *webservicesNLPortType) KvkUpdateRemoveDossier(request *KvkUpdateR
 
 func (service *webservicesNLPortType) MapViewPostcodeV2(request *MapViewPostcodeV2RequestType) (*MapViewPostcodeV2ResponseType, error) {
 	response := new(MapViewPostcodeV2ResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/mapViewPostcodeV2", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/mapViewPostcodeV2", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21388,7 +21388,7 @@ func (service *webservicesNLPortType) MapViewPostcodeV2(request *MapViewPostcode
 
 func (service *webservicesNLPortType) MapViewLatLon(request *MapViewLatLonRequestType) (*MapViewLatLonResponseType, error) {
 	response := new(MapViewLatLonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/mapViewLatLon", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/mapViewLatLon", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21398,7 +21398,7 @@ func (service *webservicesNLPortType) MapViewLatLon(request *MapViewLatLonReques
 
 func (service *webservicesNLPortType) MapViewRD(request *MapViewRDRequestType) (*MapViewRDResponseType, error) {
 	response := new(MapViewRDResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/mapViewRD", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/mapViewRD", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21408,7 +21408,7 @@ func (service *webservicesNLPortType) MapViewRD(request *MapViewRDRequestType) (
 
 func (service *webservicesNLPortType) MapViewInternationalLatLon(request *MapViewInternationalLatLonRequestType) (*MapViewInternationalLatLonResponseType, error) {
 	response := new(MapViewInternationalLatLonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/mapViewInternationalLatLon", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/mapViewInternationalLatLon", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21418,7 +21418,7 @@ func (service *webservicesNLPortType) MapViewInternationalLatLon(request *MapVie
 
 func (service *webservicesNLPortType) MetaGetServices(request *MetaGetServicesRequestType) (*MetaGetServicesResponseType, error) {
 	response := new(MetaGetServicesResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/metaGetServices", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/metaGetServices", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21428,7 +21428,7 @@ func (service *webservicesNLPortType) MetaGetServices(request *MetaGetServicesRe
 
 func (service *webservicesNLPortType) MetaGetService(request *MetaGetServiceRequestType) (*MetaGetServiceResponseType, error) {
 	response := new(MetaGetServiceResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/metaGetService", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/metaGetService", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21438,7 +21438,7 @@ func (service *webservicesNLPortType) MetaGetService(request *MetaGetServiceRequ
 
 func (service *webservicesNLPortType) MetaGetMethod(request *MetaGetMethodRequestType) (*MetaGetMethodResponseType, error) {
 	response := new(MetaGetMethodResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/metaGetMethod", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/metaGetMethod", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21448,7 +21448,7 @@ func (service *webservicesNLPortType) MetaGetMethod(request *MetaGetMethodReques
 
 func (service *webservicesNLPortType) NbwoEstimateValue(request *NbwoEstimateValueRequestType) (*NbwoEstimateValueResponseType, error) {
 	response := new(NbwoEstimateValueResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/nbwoEstimateValue", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/nbwoEstimateValue", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21458,7 +21458,7 @@ func (service *webservicesNLPortType) NbwoEstimateValue(request *NbwoEstimateVal
 
 func (service *webservicesNLPortType) RiskCheckPerson(request *RiskCheckPersonRequestType) (*RiskCheckPersonResponseType, error) {
 	response := new(RiskCheckPersonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/riskCheckPerson", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/riskCheckPerson", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21468,7 +21468,7 @@ func (service *webservicesNLPortType) RiskCheckPerson(request *RiskCheckPersonRe
 
 func (service *webservicesNLPortType) RiskCheckGetRiskPersonCompanyReport(request *RiskCheckGetRiskPersonCompanyReportRequestType) (*RiskCheckGetRiskPersonCompanyReportResponseType, error) {
 	response := new(RiskCheckGetRiskPersonCompanyReportResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/riskCheckGetRiskPersonCompanyReport", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/riskCheckGetRiskPersonCompanyReport", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21478,7 +21478,7 @@ func (service *webservicesNLPortType) RiskCheckGetRiskPersonCompanyReport(reques
 
 func (service *webservicesNLPortType) RoutePlannerGetRoute(request *RoutePlannerGetRouteRequestType) (*RoutePlannerGetRouteResponseType, error) {
 	response := new(RoutePlannerGetRouteResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerGetRoute", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerGetRoute", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21488,7 +21488,7 @@ func (service *webservicesNLPortType) RoutePlannerGetRoute(request *RoutePlanner
 
 func (service *webservicesNLPortType) RoutePlannerInformationAddress(request *RoutePlannerInformationAddressRequestType) (*RoutePlannerInformationAddressResponseType, error) {
 	response := new(RoutePlannerInformationAddressResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerInformationAddress", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerInformationAddress", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21498,7 +21498,7 @@ func (service *webservicesNLPortType) RoutePlannerInformationAddress(request *Ro
 
 func (service *webservicesNLPortType) RoutePlannerDescriptionAddress(request *RoutePlannerDescriptionAddressRequestType) (*RoutePlannerDescriptionAddressResponseType, error) {
 	response := new(RoutePlannerDescriptionAddressResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerDescriptionAddress", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerDescriptionAddress", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21508,7 +21508,7 @@ func (service *webservicesNLPortType) RoutePlannerDescriptionAddress(request *Ro
 
 func (service *webservicesNLPortType) RoutePlannerDescription(request *RoutePlannerDescriptionRequestType) (*RoutePlannerDescriptionResponseType, error) {
 	response := new(RoutePlannerDescriptionResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerDescription", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerDescription", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21518,7 +21518,7 @@ func (service *webservicesNLPortType) RoutePlannerDescription(request *RoutePlan
 
 func (service *webservicesNLPortType) RoutePlannerDescriptionShortest(request *RoutePlannerDescriptionShortestRequestType) (*RoutePlannerDescriptionShortestResponseType, error) {
 	response := new(RoutePlannerDescriptionShortestResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerDescriptionShortest", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerDescriptionShortest", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21528,7 +21528,7 @@ func (service *webservicesNLPortType) RoutePlannerDescriptionShortest(request *R
 
 func (service *webservicesNLPortType) RoutePlannerDescriptionCoordinatesRD(request *RoutePlannerDescriptionCoordinatesRDRequestType) (*RoutePlannerDescriptionCoordinatesRDResponseType, error) {
 	response := new(RoutePlannerDescriptionCoordinatesRDResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerDescriptionCoordinatesRD", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerDescriptionCoordinatesRD", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21538,7 +21538,7 @@ func (service *webservicesNLPortType) RoutePlannerDescriptionCoordinatesRD(reque
 
 func (service *webservicesNLPortType) RoutePlannerInformation(request *RoutePlannerInformationRequestType) (*RoutePlannerInformationResponseType, error) {
 	response := new(RoutePlannerInformationResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerInformation", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerInformation", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21548,7 +21548,7 @@ func (service *webservicesNLPortType) RoutePlannerInformation(request *RoutePlan
 
 func (service *webservicesNLPortType) RoutePlannerRDDescription(request *RoutePlannerRDDescriptionRequestType) (*RoutePlannerRDDescriptionResponseType, error) {
 	response := new(RoutePlannerRDDescriptionResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerRDDescription", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerRDDescription", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21558,7 +21558,7 @@ func (service *webservicesNLPortType) RoutePlannerRDDescription(request *RoutePl
 
 func (service *webservicesNLPortType) RoutePlannerRDInformation(request *RoutePlannerRDInformationRequestType) (*RoutePlannerRDInformationResponseType, error) {
 	response := new(RoutePlannerRDInformationResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerRDInformation", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerRDInformation", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21568,7 +21568,7 @@ func (service *webservicesNLPortType) RoutePlannerRDInformation(request *RoutePl
 
 func (service *webservicesNLPortType) RoutePlannerRDDescriptionCoordinatesRD(request *RoutePlannerRDDescriptionCoordinatesRDRequestType) (*RoutePlannerRDDescriptionCoordinatesRDResponseType, error) {
 	response := new(RoutePlannerRDDescriptionCoordinatesRDResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerRDDescriptionCoordinatesRD", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerRDDescriptionCoordinatesRD", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21578,7 +21578,7 @@ func (service *webservicesNLPortType) RoutePlannerRDDescriptionCoordinatesRD(req
 
 func (service *webservicesNLPortType) RoutePlannerInformationDutchAddress(request *RoutePlannerInformationDutchAddressRequestType) (*RoutePlannerInformationDutchAddressResponseType, error) {
 	response := new(RoutePlannerInformationDutchAddressResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerInformationDutchAddress", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerInformationDutchAddress", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21588,7 +21588,7 @@ func (service *webservicesNLPortType) RoutePlannerInformationDutchAddress(reques
 
 func (service *webservicesNLPortType) RoutePlannerDescriptionDutchAddress(request *RoutePlannerDescriptionDutchAddressRequestType) (*RoutePlannerDescriptionDutchAddressResponseType, error) {
 	response := new(RoutePlannerDescriptionDutchAddressResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerDescriptionDutchAddress", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerDescriptionDutchAddress", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21598,7 +21598,7 @@ func (service *webservicesNLPortType) RoutePlannerDescriptionDutchAddress(reques
 
 func (service *webservicesNLPortType) RoutePlannerEUDescription(request *RoutePlannerEUDescriptionRequestType) (*RoutePlannerEUDescriptionResponseType, error) {
 	response := new(RoutePlannerEUDescriptionResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerEUDescription", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerEUDescription", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21608,7 +21608,7 @@ func (service *webservicesNLPortType) RoutePlannerEUDescription(request *RoutePl
 
 func (service *webservicesNLPortType) RoutePlannerEUInformation(request *RoutePlannerEUInformationRequestType) (*RoutePlannerEUInformationResponseType, error) {
 	response := new(RoutePlannerEUInformationResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerEUInformation", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerEUInformation", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21618,7 +21618,7 @@ func (service *webservicesNLPortType) RoutePlannerEUInformation(request *RoutePl
 
 func (service *webservicesNLPortType) RoutePlannerEUDescriptionCoordinatesLatLon(request *RoutePlannerEUDescriptionCoordinatesLatLonRequestType) (*RoutePlannerEUDescriptionCoordinatesLatLonResponseType, error) {
 	response := new(RoutePlannerEUDescriptionCoordinatesLatLonResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerEUDescriptionCoordinatesLatLon", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerEUDescriptionCoordinatesLatLon", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21628,7 +21628,7 @@ func (service *webservicesNLPortType) RoutePlannerEUDescriptionCoordinatesLatLon
 
 func (service *webservicesNLPortType) RoutePlannerEUMap(request *RoutePlannerEUMapRequestType) (*RoutePlannerEUMapResponseType, error) {
 	response := new(RoutePlannerEUMapResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/routePlannerEUMap", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/routePlannerEUMap", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21638,7 +21638,7 @@ func (service *webservicesNLPortType) RoutePlannerEUMap(request *RoutePlannerEUM
 
 func (service *webservicesNLPortType) SepaConvertBankAccountNumber(request *SepaConvertBankAccountNumberRequestType) (*SepaConvertBankAccountNumberResponseType, error) {
 	response := new(SepaConvertBankAccountNumberResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/sepaConvertBankAccountNumber", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/sepaConvertBankAccountNumber", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21648,7 +21648,7 @@ func (service *webservicesNLPortType) SepaConvertBankAccountNumber(request *Sepa
 
 func (service *webservicesNLPortType) SepaValidateInternationalBankAccountNumberFormat(request *SepaValidateInternationalBankAccountNumberFormatRequestType) (*SepaValidateInternationalBankAccountNumberFormatResponseType, error) {
 	response := new(SepaValidateInternationalBankAccountNumberFormatResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/sepaValidateInternationalBankAccountNumberFormat", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/sepaValidateInternationalBankAccountNumberFormat", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21658,7 +21658,7 @@ func (service *webservicesNLPortType) SepaValidateInternationalBankAccountNumber
 
 func (service *webservicesNLPortType) SepaIbanDetails(request *SepaIbanDetailsRequestType) (*SepaIbanDetailsResponseType, error) {
 	response := new(SepaIbanDetailsResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/sepaIbanDetails", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/sepaIbanDetails", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21668,7 +21668,7 @@ func (service *webservicesNLPortType) SepaIbanDetails(request *SepaIbanDetailsRe
 
 func (service *webservicesNLPortType) SepaMatchAccountHolder(request *SepaMatchAccountHolderRequestType) (*SepaMatchAccountHolderResponseType, error) {
 	response := new(SepaMatchAccountHolderResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/sepaMatchAccountHolder", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/sepaMatchAccountHolder", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21678,7 +21678,7 @@ func (service *webservicesNLPortType) SepaMatchAccountHolder(request *SepaMatchA
 
 func (service *webservicesNLPortType) SepaConvertBasicBankAccountNumber(request *SepaConvertBasicBankAccountNumberRequestType) (*SepaConvertBasicBankAccountNumberResponseType, error) {
 	response := new(SepaConvertBasicBankAccountNumberResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/sepaConvertBasicBankAccountNumber", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/sepaConvertBasicBankAccountNumber", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21688,7 +21688,7 @@ func (service *webservicesNLPortType) SepaConvertBasicBankAccountNumber(request 
 
 func (service *webservicesNLPortType) VatValidate(request *VatValidateRequestType) (*VatValidateResponseType, error) {
 	response := new(VatValidateResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/vatValidate", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/vatValidate", request, response)
 	if err != nil {
 		return nil, err
 	}
@@ -21698,7 +21698,7 @@ func (service *webservicesNLPortType) VatValidate(request *VatValidateRequestTyp
 
 func (service *webservicesNLPortType) VatViesProxyCheckVat(request *VatViesProxyCheckVatRequestType) (*VatViesProxyCheckVatResponseType, error) {
 	response := new(VatViesProxyCheckVatResponseType)
-	err := service.client.Call("https://api.webservices.nl/soap_doclit.php/vatViesProxyCheckVat", request, response)
+	err := service.client.Call("https://ws1.webservices.nl/soap_doclit.php/vatViesProxyCheckVat", request, response)
 	if err != nil {
 		return nil, err
 	}
